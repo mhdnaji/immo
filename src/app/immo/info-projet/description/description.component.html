@@ -1,0 +1,101 @@
+<form class="register-form m-4" [formGroup]="descriptionGroup" (ngSubmit)="onSubmit()">
+
+    <div class="card">
+        <div class="header">
+            <h2>Description du terrain ?</h2>
+        </div>
+        <div class="body">
+            <div class="container-fluid">
+                <div class="row">
+              
+                        <div class="col-sm-6">
+                            <mat-form-field appearance="outline">
+                                <mat-label>Surface</mat-label>
+                                <input matInput type="number" min="0" placeholder="0" formControlName='surfaceControl'>
+                                <span matTextSuffix>m2</span>
+                                <mat-error *ngIf="descriptionGroup.get('surfaceControl').hasError('required')">
+                                    Renseigner la surface du terrain </mat-error>
+                                <mat-hint>{{descriptionGroup.get('surfaceControl').value?.sound}}</mat-hint>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-sm-6">
+                            <mat-form-field>
+                                <mat-label>Topologie</mat-label>
+                                <mat-select formControlName="topoPropControl" required>
+                                    <mat-option *ngFor="let topoProp of toposProp  " [value]="topoProp">
+                                        {{ topoProp.label }}
+                                    </mat-option>
+                                </mat-select>
+                                <mat-error *ngIf="descriptionGroup.get('topoPropControl').hasError('required')">
+                                    Choisir la topologie du terrain </mat-error>
+                                <mat-hint>{{descriptionGroup.get('topoPropControl').value?.sound}}</mat-hint>
+                            </mat-form-field>
+                        </div>
+                    
+                </div>
+                <div class="row">
+                  
+                        <div class="col-sm-6">
+                            <mat-form-field appearance="outline">
+                                <mat-label>Dim 1</mat-label>
+                                <input matInput type="number" min="0" placeholder="0" formControlName='dim1Control'>
+                                <span matTextSuffix>m</span>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-sm-6">
+                            <mat-form-field appearance="outline">
+                                <mat-label>Dim 2</mat-label>
+                                <input matInput type="number" min="0" placeholder="0" formControlName='dim2Control'>
+                                <span matTextSuffix>m</span>
+                            </mat-form-field>
+                        </div>
+                
+                </div>
+                <div class="row">
+                   
+                        <div class="col-sm-6">
+                            <mat-form-field appearance="outline">
+                                <mat-label>Dim 3</mat-label>
+                                <input matInput type="number" min="0" placeholder="0" formControlName='dim3Control'>
+                                <span matTextSuffix>m</span>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-sm-6">
+                            <mat-form-field appearance="outline">
+                                <mat-label>Dim 4</mat-label>
+                                <input matInput type="number" min="0" placeholder="0" formControlName='dim4Control'>
+                                <span matTextSuffix>m</span>
+                            </mat-form-field>
+                        </div>
+                    
+                </div>
+                <div class="row">
+                    
+                        <div class="col-sm-6">
+                            <mat-form-field appearance="outline">
+                                <mat-label>Dim 5</mat-label>
+                                <input matInput type="number" min="0" placeholder="0" formControlName='dim5Control'>
+                                <span matTextSuffix>m</span>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-sm-6">
+                            <mat-form-field appearance="outline">
+                                <mat-label>Dim 6</mat-label>
+                                <input matInput type="number" min="0" placeholder="0" formControlName='dim6Control'>
+                                <span matTextSuffix>m</span>
+                            </mat-form-field>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div>
+        <button mat-button color="warn" class="msr-2" (click)="onRetour()">retour</button>
+        <button mat-raised-button color="primary" [disabled]="!descriptionGroup.valid"
+            (click)="onNext()">Suivant</button>
+    </div>
+
+</form>

@@ -1,0 +1,68 @@
+<section class="content">
+    <div class="container-fluid">
+        <div class="block-header">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <ul class="breadcrumb breadcrumb-style ">
+                        <li class="breadcrumb-item">
+                            <h4 class="page-title">Estimation du bien</h4>
+                        </li>
+                        <li class="breadcrumb-item bcrumb-1">
+                            <a routerLink="/bien">
+                                <i class="fas fa-home"></i> bien</a>
+                        </li>
+                        <!-- <li class="breadcrumb-item bcrumb-2">
+                <a href="#" onClick="return false;">Forms</a>
+              </li>
+              <li class="breadcrumb-item active">Wizard</li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="card">
+                    <!-- <div class="header">
+                        <h2>
+                            <strong>{{titre}}</strong>
+                        </h2>
+                    </div> -->
+                    <div class="body">
+                        <mat-horizontal-stepper [linear]="isLinear" #stepper   (selectionChange)="selectionChange($event)">
+                            <mat-step [stepControl]="localisationGroup">
+                                <ng-template matStepLabel>Localisation</ng-template>
+                                <app-localisation 
+                                        (moveStep)="moveStep($event)"
+                                    >
+                                </app-localisation>
+                            </mat-step>
+                            <mat-step [stepControl]="titreGroup">
+                                <ng-template matStepLabel>Titre</ng-template>
+                                <app-titre
+                                        (moveStep)="moveStep($event)"
+                                    >
+                                </app-titre>
+                            </mat-step>
+                            <mat-step [stepControl]="descriptionGroup">
+                                <ng-template matStepLabel>Description</ng-template>
+                                <app-description 
+                                (moveStep)="moveStep($event)"
+                                    >
+                                </app-description>
+                            </mat-step>
+                            <mat-step [stepControl]="typeGroup">
+                                <ng-template matStepLabel>Type</ng-template>
+                                <app-type
+                                (moveStep)="moveStep($event)"
+                                 >
+                                </app-type>
+                            </mat-step>
+                        </mat-horizontal-stepper>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>

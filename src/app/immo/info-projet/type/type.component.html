@@ -1,0 +1,45 @@
+<form class="register-form m-4" [formGroup]="typeGroup" (ngSubmit)="onSubmit()">
+    <div class="card">
+        <div class="header">
+            <h2>Type de bien ?</h2>
+        </div>
+        <div class="body">
+            <div class="container-fluid">
+                <div class="row">
+                   
+                        <div class="col-sm-6">
+                            <mat-form-field>
+                                <mat-label>Choisir un type de maison</mat-label>
+                                <mat-select [(value)]="selectedImage" formControlName='typeDeBienControl'
+                                    (selectionChange)="onSelectionChange($event)">
+                                    <mat-option *ngFor="let image of imageObject" [value]="image">
+                                        {{ image.nom }}
+                                    </mat-option>
+                                </mat-select>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-sm-6">
+                            <div *ngIf="selectedImage">
+                                <img [src]="selectedImage.image" [alt]="selectedImage.nom">
+                                <!-- <h3>{{ selectedImage.title }}</h3> -->
+                            </div>
+                        </div>
+                
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <mat-form-field appearance="outline">
+                                <mat-label>Nombre de pièces</mat-label>
+                                <input matInput type="number" min="0" placeholder="0" formControlName='nbPiecesControl'>
+                            </mat-form-field>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <button mat-button color="accent" class="msr-2" (click)="onRetour()">retour</button>
+        <button mat-raised-button color="primary" [disabled]="!typeGroup.valid">Valider</button>
+    </div>
+</form>

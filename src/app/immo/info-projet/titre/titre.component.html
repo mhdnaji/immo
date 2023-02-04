@@ -1,0 +1,39 @@
+<form class="register-form m-4" [formGroup]="titreGroup" (ngSubmit)="onSubmit()">
+    <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+            <div class="card">
+                <div class="header">
+                    <h2>Avez-vous un titre de propriété sur ce terrain ?</h2>
+                </div>
+                <div class="body">
+                    <div class="row mt-5">
+                        <mat-form-field class="titre-width">
+                            <mat-label>Titre propriété</mat-label>
+                            <mat-select formControlName="titreControl" required>
+                                <mat-option *ngFor="let titre of titresProp  " [value]="titre.nom">
+                                    {{ titre.label }}
+                                  </mat-option>
+                            </mat-select>
+                            <mat-error *ngIf="titreGroup.get('titreControl').hasError('required')">choisir le titre de propriété </mat-error>
+                            <mat-hint>{{titreGroup.get('titreControl').value?.sound}}</mat-hint>
+                        </mat-form-field>
+                    </div>
+                    <div class="row mt-5">
+                        <mat-form-field class="titre-width">
+                            <mat-label>Date d'obtention</mat-label>
+                            <input matInput [matDatepicker]="picker" [value]="dateObtention" formControlName="dateControl">
+                            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                            <mat-datepicker #picker ></mat-datepicker>
+                          </mat-form-field>
+                      </div>
+   
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <button mat-button  color="warn" class="msr-2"
+                 (click)="onRetour()">retour</button>    
+        <button mat-raised-button  color="primary" [disabled]="!titreGroup.valid"   (click)="onNext()">Suivant</button>
+    </div>
+</form>

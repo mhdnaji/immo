@@ -1,0 +1,141 @@
+<div class="addContainer">
+  <div class="modalHeader">
+    <div class="editRowModal">
+      <div class="modalHeader clearfix">
+        <div class="modal-about">
+          <div class="fw-bold p-t-5 font-17">
+            {{dialogTitle}}</div>
+        </div>
+      </div>
+    </div>
+    <button mat-icon-button (click)="dialogRef.close()" class="modal-close-button" aria-label="Close dialog">
+      <mat-icon>close</mat-icon>
+    </button>
+  </div>
+  <div mat-dialog-content>
+    <form class="register-form m-4" [formGroup]="roomForm" (ngSubmit)="submit">
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mb-2">
+          <mat-form-field class="example-full-width mb-3" appearance="outline">
+            <mat-label>Room No</mat-label>
+            <input matInput formControlName="roomNo" required>
+            <mat-error *ngIf="roomForm.get('roomNo').hasError('required')">
+              Room no is required
+            </mat-error>
+          </mat-form-field>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mb-2">
+          <mat-form-field class="example-full-width mb-3" appearance="outline">
+            <mat-label>Select Room Type</mat-label>
+            <mat-select formControlName="type" required>
+              <mat-option [value]="'Delux'">
+                Delux
+              </mat-option>
+              <mat-option [value]="'Super Delux'">
+                Super Delux
+              </mat-option>
+              <mat-option [value]="'Single'">
+                Single
+              </mat-option>
+              <mat-option [value]="'Double'">
+                Double
+              </mat-option>
+              <mat-option [value]="'Vila'">
+                Vila
+              </mat-option>
+            </mat-select>
+            <mat-error *ngIf="roomForm.get('type').hasError('required')">
+              Select Room Type
+            </mat-error>
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mb-2">
+          <mat-form-field class="example-full-width mb-3" appearance="outline">
+            <mat-label>AC/Non AC</mat-label>
+            <mat-select formControlName="acNonac" required>
+              <mat-option [value]="'AC'">
+                AC
+              </mat-option>
+              <mat-option [value]="'Non AC'">
+                Non AC
+              </mat-option>
+            </mat-select>
+            <mat-error *ngIf="roomForm.get('acNonac').hasError('required')">
+              Select AC or Non AC
+            </mat-error>
+          </mat-form-field>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mb-2">
+          <mat-form-field class="example-full-width mb-3" appearance="outline">
+            <mat-label>Meal</mat-label>
+            <mat-select formControlName="meal" required>
+              <mat-option [value]="'Free Breakfast'">
+                Free Breakfast
+              </mat-option>
+              <mat-option [value]="'Free Lunch'">
+                Free Lunch
+              </mat-option>
+              <mat-option [value]="'Free Welcome Drink'">
+                Free Welcome Drink
+              </mat-option>
+              <mat-option [value]="'Free Dinner'">
+                Free Dinner
+              </mat-option>
+              <mat-option [value]="'No Free Food'">
+                No Free Food
+              </mat-option>
+              <mat-option [value]="'None'">
+                None
+              </mat-option>
+            </mat-select>
+            <mat-error *ngIf="roomForm.get('meal').hasError('required')">
+              Select Meal
+            </mat-error>
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mb-2">
+          <mat-form-field class="example-full-width mb-3" appearance="outline">
+            <mat-label>Capacity</mat-label>
+            <input matInput formControlName="capacity" type="number">
+            <mat-error *ngIf="roomForm.get('capacity').hasError('required')">
+              Capacity is required
+            </mat-error>
+          </mat-form-field>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mb-2">
+          <mat-form-field class="example-full-width mb-3" appearance="outline">
+            <mat-label>Phone</mat-label>
+            <input matInput formControlName="phone" type="number">
+            <mat-error *ngIf="roomForm.get('phone').hasError('required')">
+              Phone is required
+            </mat-error>
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mb-2">
+          <mat-form-field class="example-full-width mb-3" appearance="outline">
+            <mat-label>Rent</mat-label>
+            <input matInput formControlName="rent" type="number">
+            <mat-error *ngIf="roomForm.get('rent').hasError('required')">
+              Rent is required
+            </mat-error>
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 mb-2">
+          <div class="example-button-row">
+            <button mat-raised-button color="primary" [type]="submit" [disabled]="!roomForm.valid"
+              [mat-dialog-close]="1" (click)="confirmAdd()">Save</button>
+            <button mat-raised-button color="warn" (click)="onNoClick()" tabindex="-1">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

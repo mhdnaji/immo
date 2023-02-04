@@ -1,0 +1,134 @@
+<section class="content">
+  <div class="container-fluid">
+    <div class="block-header">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <ul class="breadcrumb breadcrumb-style ">
+            <li class="breadcrumb-item">
+              <h4 class="page-title">Department</h4>
+            </li>
+            <li class="breadcrumb-item bcrumb-1">
+              <a routerLink="/dashboard/main">
+                <i class="fas fa-home"></i> Home</a>
+            </li>
+            <li class="breadcrumb-item bcrumb-2">
+              <a href="#" onClick="return false;">Department</a>
+            </li>
+            <li class="breadcrumb-item active">Edit Department</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row clearfix">
+      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+        <div class="card">
+          <div class="header">
+            <h2>Edit Department</h2>
+
+          </div>
+          <div class="body">
+            <form class="m-4" [formGroup]="departmentForm" (ngSubmit)="onSubmit()">
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 mb-2">
+                  <mat-form-field class="example-full-width mb-3" appearance="outline">
+                    <mat-label>Department</mat-label>
+                    <mat-select formControlName="dName" required>
+                      <mat-option [value]="'Housekeeping'">
+                        Housekeeping
+                      </mat-option>
+                      <mat-option [value]="'Food and Beverage'">
+                        Food and Beverage
+                      </mat-option>
+                      <mat-option [value]="'Kitchen'">
+                        Kitchen
+                      </mat-option>
+                      <mat-option [value]="'Accounts'">
+                        Accounts
+                      </mat-option>
+                      <mat-option [value]="'Security'">
+                        Security
+                      </mat-option>
+                      <mat-option [value]="'Transport'">
+                        Transport
+                      </mat-option>
+                      <mat-option [value]="'Purchase'">
+                        Purchase
+                      </mat-option>
+                    </mat-select>
+                    <mat-error *ngIf="departmentForm.get('dName').hasError('required')">
+                      Select Any Department
+                    </mat-error>
+                  </mat-form-field>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 mb-2">
+                  <mat-form-field class="example-full-width mb-3" appearance="outline">
+                    <mat-label>Head Of Department</mat-label>
+                    <input matInput formControlName="hod" required>
+                    <mat-icon matSuffix>person</mat-icon>
+                    <mat-error *ngIf="departmentForm.get('hod').hasError('required')">
+                      HOD name required
+                    </mat-error>
+                  </mat-form-field>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 mb-2">
+                  <mat-form-field class="example-full-width mb-3" appearance="outline">
+                    <mat-label>Phone</mat-label>
+                    <input matInput formControlName="phone">
+                    <mat-icon matSuffix>phone</mat-icon>
+                    <mat-error *ngIf="departmentForm.get('phone').hasError('required')">
+                      Phone is required
+                    </mat-error>
+                  </mat-form-field>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 mb-2">
+                  <mat-form-field class="example-full-width mb-3" appearance="outline">
+                    <mat-label>Email</mat-label>
+                    <input matInput formControlName="email" required>
+                    <mat-icon matSuffix>email</mat-icon>
+                    <mat-error
+                      *ngIf="departmentForm.get('email').hasError('required') || departmentForm.get('email').touched">
+                      Please enter a valid email address
+                    </mat-error>
+                  </mat-form-field>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 mb-2">
+                  <mat-form-field class="example-full-width mb-3" appearance="outline">
+                    <mat-label>Total staff</mat-label>
+                    <input matInput formControlName="totalStaff" required>
+                    <mat-icon matSuffix>group</mat-icon>
+                    <mat-error *ngIf="departmentForm.get('totalStaff').hasError('required')">
+                      Total staff is required
+                    </mat-error>
+                  </mat-form-field>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 mb-2">
+                  <mat-form-field class="example-full-width mb-3" appearance="outline">
+                    <mat-label>Details</mat-label>
+                    <textarea matInput formControlName="details"></textarea>
+                  </mat-form-field>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 mb-2">
+                  <button class="msr-3" [disabled]="!departmentForm.valid " mat-raised-button
+                    color="primary">Submit</button>
+                  <button type="button" mat-raised-button color="warn">Cancel</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

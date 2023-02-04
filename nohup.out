@@ -1,0 +1,97 @@
+Warning: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+One or more browsers which are configured in the project's Browserslist configuration will be ignored as ES5 output is not supported by the Angular CLI.
+Ignored browsers: kaios 2.5, op_mini all
+- Generating browser application bundles (phase: setup)...
+    TypeScript compiler options "target" and "useDefineForClassFields" are set to "ES2022" and "false" respectively by the Angular CLI. To control ECMA version and features use the Browerslist configuration. For more information, see https://angular.io/guide/build#configuring-browser-compatibility
+[33mWarning:[0m Entry point '@ckeditor/ckeditor5-angular' contains deep imports into '/home/mnaji/projects/templates/tt/spice/source/main/node_modules/@ckeditor/ckeditor5-watchdog/src/editorwatchdog'. This is probably not a problem, but may cause the compilation of entry points to be out of order.
+Processing legacy "View Engine" libraries:
+- ng-pick-datetime [module/esm5] (https://github.com/DanielYKPan/date-time-picker.git)
+- @ckeditor/ckeditor5-angular [es2015/esm2015] (https://github.com/ckeditor/ckeditor5-angular.git)
+- ng2-dragula [es2015/esm2015] (git+https://github.com/valor-software/ng2-dragula.git)
+- ng2-charts [es2015/esm2015] (git+https://github.com/valor-software/ng2-charts.git)
+- mat-progress-buttons [es2015/esm2015] (git://github.com/michaeldoye/mat-progress-buttons.git)
+- ng-image-fullscreen-view [es2015/esm2015] (https://github.com/sanjayV/ng-image-fullscreen-viewer.git)
+- angular-gauge [es2015/esm2015] (git+https://github.com/mattlewis92/angular-gauge.git)
+- @agm/core [es2015/esm2015] (https://github.com/SebastianM/angular-google-maps.git)
+Encourage the library authors to publish an Ivy distribution.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                                                                                     | Names                                |  Raw Size
+vendor.js                                                                                               | vendor                               |   5.72 MB |
+scripts.js                                                                                              | scripts                              |   1.10 MB |
+styles.css, styles.js                                                                                   | styles                               | 955.27 kB |
+polyfills.js                                                                                            | polyfills                            | 357.15 kB |
+main.js                                                                                                 | main                                 | 132.15 kB |
+runtime.js                                                                                              | runtime                              |  12.94 kB |
+
+| Initial Total                        |   8.24 MB
+
+Lazy Chunk Files                                                                                        | Names                                |  Raw Size
+node_modules_echarts_index_js.js                                                                        | echarts                              |   4.44 MB |
+src_app_charts_charts_module_ts.js                                                                      | charts-charts-module                 |   1.62 MB |
+default-node_modules_ckeditor_ckeditor5-angular___ivy_ngcc___fesm2015_ckeditor-ckeditor5-angu-fbbc65.js | email-email-module                   |   1.35 MB |
+default-node_modules_ng2-charts___ivy_ngcc___fesm2015_ng2-charts_js.js                                  | widget-widget-module                 |   1.07 MB |
+default-node_modules_ng-apexcharts_fesm2020_ng-apexcharts_mjs.js                                        | dashboard-dashboard-module           | 728.53 kB |
+src_app_calendar_calendar_module_ts.js                                                                  | calendar-calendar-module             | 715.70 kB |
+src_app_icons_icons_module_ts.js                                                                        | icons-icons-module                   | 677.33 kB |
+src_app_ui_ui_module_ts.js                                                                              | ui-ui-module                         | 644.38 kB |
+default-node_modules_ng-pick-datetime___ivy_ngcc___picker_js.js                                         | calendar-calendar-module             | 415.07 kB |
+src_app_tables_tables_module_ts.js                                                                      | tables-tables-module                 | 360.96 kB |
+src_app_maps_maps_module_ts.js                                                                          | maps-maps-module                     | 272.07 kB |
+src_app_forms_forms_module_ts.js                                                                        | forms-forms-module                   | 266.40 kB |
+default-node_modules_angular_material_fesm2020_paginator_mjs-node_modules_angular_material_fe-330cb4.js | task-task-module                     | 244.49 kB |
+default-node_modules_angular_material_fesm2020_tabs_mjs.js                                              | staff-staff-module                   | 188.64 kB |
+default-node_modules_angular_material_fesm2020_autocomplete_mjs-node_modules_angular_material-d22ecd.js | ui-ui-module                         | 176.66 kB |
+default-node_modules_angular_cdk_fesm2020_drag-drop_mjs.js                                              | task-task-module                     | 176.39 kB |
+default-node_modules_lodash-es__baseClone_js.js                                                         | email-email-module                   | 147.38 kB |
+src_app_apps_apps_module_ts.js                                                                          | apps-apps-module                     | 123.82 kB |
+src_app_widget_widget_module_ts.js                                                                      | widget-widget-module                 | 122.53 kB |
+default-node_modules_angular_material_fesm2020_dialog_mjs.js                                            | calendar-calendar-module             | 116.88 kB |
+src_app_media_media_module_ts.js                                                                        | media-media-module                   | 103.74 kB |
+src_app_staff_staff_module_ts.js                                                                        | staff-staff-module                   | 101.27 kB |
+src_app_booking_booking_module_ts.js                                                                    | booking-booking-module               |  86.42 kB |
+default-node_modules_angular_material_fesm2020_checkbox_mjs.js                                          | calendar-calendar-module             |  84.75 kB |
+src_app_rooms_rooms_module_ts.js                                                                        | rooms-rooms-module                   |  80.53 kB |
+default-node_modules_angular_material_fesm2020_sidenav_mjs.js                                           | task-task-module                     |  78.17 kB |
+default-node_modules_angular_material_fesm2020_select_mjs.js                                            | calendar-calendar-module             |  77.40 kB |
+src_app_departments_departments_module_ts.js                                                            | departments-departments-module       |  74.00 kB |
+src_app_extra-pages_extra-pages_module_ts.js                                                            | extra-pages-extra-pages-module       |  68.42 kB |
+default-node_modules_angular_material_fesm2020_expansion_mjs.js                                         | ui-ui-module                         |  64.96 kB |
+default-node_modules_angular_material_fesm2020_radio_mjs.js                                             | calendar-calendar-module             |  61.27 kB |
+default-node_modules_angular_material_fesm2020_sort_mjs-node_modules_angular_material_fesm202-75cc41.js | task-task-module                     |  57.15 kB |
+default-node_modules_angular_material_fesm2020_snack-bar_mjs.js                                         | calendar-calendar-module             |  54.73 kB |
+src_app_contacts_contacts_module_ts.js                                                                  | contacts-contacts-module             |  52.14 kB |
+src_app_email_email_module_ts.js                                                                        | email-email-module                   |  51.80 kB |
+src_app_authentication_authentication_module_ts.js                                                      | authentication-authentication-module |  41.26 kB |
+src_app_dashboard_dashboard_module_ts.js                                                                | dashboard-dashboard-module           |  39.03 kB |
+default-node_modules_angular_material_fesm2020_card_mjs.js                                              | task-task-module                     |  34.85 kB |
+default-node_modules_angular_material_fesm2020_progress-spinner_mjs.js                                  | contacts-contacts-module             |  31.78 kB |
+default-node_modules_angular_material_fesm2020_progress-bar_mjs.js                                      | widget-widget-module                 |  31.46 kB |
+src_app_timeline_timeline_module_ts.js                                                                  | timeline-timeline-module             |  28.58 kB |
+src_app_task_task_module_ts.js                                                                          | task-task-module                     |  27.14 kB |
+src_app_multilevel_multilevel_module_ts.js                                                              | multilevel-multilevel-module         |  26.13 kB |
+default-node_modules_ngx-echarts_fesm2020_ngx-echarts_mjs.js                                            | dashboard-dashboard-module           |  23.10 kB |
+src_app_multilevel_thirdlevel_thirdlevel_module_ts.js                                                   | thirdlevel-thirdlevel-module         |   7.42 kB |
+common.js                                                                                               | common                               |   7.11 kB |
+
+Build at: 2023-02-03T23:15:28.571Z - Hash: fe4849b7a8d84c2d - Time: 93441ms
+
+Warning: /home/mnaji/projects/templates/tt/spice/source/main/node_modules/@swimlane/ngx-charts/fesm2020/swimlane-ngx-charts.mjs depends on 'rfdc'. CommonJS or AMD dependencies can cause optimization bailouts.
+For more info see: https://angular.io/guide/build#configuring-commonjs-dependencies
+
+
+
+** Angular Live Development Server is listening on 0.0.0.0:4201, open your browser on http://localhost:4201/ **
+
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.94 kB |
+
+51 unchanged chunks
+
+Build at: 2023-02-03T23:15:31.525Z - Hash: c52484f7411c2174 - Time: 2173ms
+
+✔ Compiled successfully.
