@@ -22,7 +22,7 @@ export const ROUTES: RouteInfo[] = [
   //     badgeClass: '',
   //     submenu: [ ],
   //   },
-    {
+   {
       path: 'estimation',
       title: 'Estimation',
       iconType: 'material-icons-two-tone',
@@ -33,5 +33,4 @@ export const ROUTES: RouteInfo[] = [
       badgeClass: '',
       submenu: [],
     },
-
   ];

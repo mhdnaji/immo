@@ -42,6 +42,9 @@ import { TitreComponent } from './titre/titre.component';
 import { DescriptionComponent } from './description/description.component';
 import { TypeComponent } from './type/type.component'; 
 import { NgImageFullscreenViewModule } from 'ng-image-fullscreen-view';
+import { TypeDetailComponent } from './type/type-detail/type-detail.component';
+import { NgxDatatableModule } from '@swimlane/ngx-datatable';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [
@@ -51,7 +54,8 @@ import { NgImageFullscreenViewModule } from 'ng-image-fullscreen-view';
             LocalisationComponent,
             TitreComponent,
             DescriptionComponent,
-            TypeComponent
+            TypeComponent,
+            TypeDetailComponent
   ],
   imports: [
     CommonModule,
@@ -87,6 +91,8 @@ import { NgImageFullscreenViewModule } from 'ng-image-fullscreen-view';
     NgxMaskModule,
     SharedModule,
     ComponentsModule,
+    NgxDatatableModule,
+    MatSnackBarModule,
   ],
 })
 

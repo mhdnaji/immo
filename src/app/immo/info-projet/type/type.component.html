@@ -1,45 +1,146 @@
-<form class="register-form m-4" [formGroup]="typeGroup" (ngSubmit)="onSubmit()">
+<form class="register-form m-4" [formGroup]="typeGroup" >
     <div class="card">
-        <div class="header">
-            <h2>Type de bien ?</h2>
-        </div>
         <div class="body">
             <div class="container-fluid">
                 <div class="row">
-                   
-                        <div class="col-sm-6">
-                            <mat-form-field>
-                                <mat-label>Choisir un type de maison</mat-label>
-                                <mat-select [(value)]="selectedImage" formControlName='typeDeBienControl'
-                                    (selectionChange)="onSelectionChange($event)">
-                                    <mat-option *ngFor="let image of imageObject" [value]="image">
-                                        {{ image.nom }}
-                                    </mat-option>
-                                </mat-select>
-                            </mat-form-field>
-                        </div>
-                        <div class="col-sm-6">
-                            <div *ngIf="selectedImage">
-                                <img [src]="selectedImage.image" [alt]="selectedImage.nom">
-                                <!-- <h3>{{ selectedImage.title }}</h3> -->
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="card">
+                            <div class="header">
+                                <h2>Type de bien ?</h2>
+                            </div>
+                            <div class="body">
+                                <div class="example-container">
+                                    <div class="row">
+                                        <div class="col">
+                                            <mat-form-field>
+                                                <mat-label>Choisir un type de maison</mat-label>
+                                                <mat-select [(value)]="selectedImage"
+                                                    formControlName='typeDeBienControl'
+                                                    (selectionChange)="onSelectionChange($event)">
+                                                    <mat-option *ngFor="let image of typeDeMaisons" [value]="image.nom">
+                                                        {{ image.nom }}
+                                                    </mat-option>
+                                                </mat-select>
+                                            </mat-form-field>
+                                        </div>
+                                        <div class="col">
+                                            <div *ngIf="selectedImage">
+                                                <img [src]="selectedImage.image" [alt]="selectedImage.nom">
+                                                <!-- <h3>{{ selectedImage.title }}</h3> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <mat-form-field appearance="outline">
+                                            <mat-label>Nombre de pièces</mat-label>
+                                            <input matInput type="number" min="0" placeholder="0"
+                                                formControlName='nbPiecesControl' (blur)="updateSurface()">
+                                        </mat-form-field>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <mat-form-field appearance="outline">
-                                <mat-label>Nombre de pièces</mat-label>
-                                <input matInput type="number" min="0" placeholder="0" formControlName='nbPiecesControl'>
-                            </mat-form-field>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="card">
+                            <div class="personalisationHeader">
+                                <ul class="header-buttons-left ms-0 mb-0">
+                                    <li>
+                                        <h2>
+                                            <strong>Personalisation</strong>
+                                        </h2>
+                                    </li>
+
+                                </ul>
+                           
+                                <ul class="header-buttons">
+                                    <li>
+                                        <button mat-mini-fab color="primary" (click)='personaliser()'>
+                                            <mat-icon class="col-white">add</mat-icon>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="body">
+                                <div class="m-l-10" >
+
+                                    <ngx-datatable #mydatatable class="material" [headerHeight]="50" [limit]="5"
+                                        [scrollbarH]="true"  [scrollbarV]="true" [footerHeight]="50"  [rows]="rows" [externalPaging]="false" >
+                                        <ngx-datatable-column name="piece">
+                                            <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex"
+                                                let-value="value" let-row="row">
+                                                <span title="Double clicker pour saisir"
+                                                    (dblclick)="editing[rowIndex + '-piece'] = true"
+                                                    *ngIf="!editing[rowIndex + '-piece']">
+                                                    {{ value }}
+                                                </span>
+                                                <select *ngIf="editing[rowIndex + '-piece']"
+                                                    (blur)="editing[rowIndex + '-piece'] = false"
+                                                    (change)="updateValue($event, 'piece', rowIndex)" [value]="value">
+                                                    <option value="cuisine">Cuisine</option>
+                                                    <option value="salon">Salon</option>
+                                                    <option value="chambre">Chambre</option>
+                                                    <option value="salleDeBain">Salle de Bain</option>
+                                                </select>
+                                            </ng-template>
+                                        </ngx-datatable-column>
+                                        <ngx-datatable-column name="Surface">
+                                            <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex"
+                                                let-value="value" let-row="row">
+                                                <span title="Double click to edit"
+                                                    (dblclick)="editing[rowIndex + '-surface'] = true"
+                                                    *ngIf="!editing[rowIndex + '-surface']">
+                                                    {{ value }}
+                                                </span>
+                                                <input type="number" min="0" autofocus
+                                                    (blur)="updateValue($event, 'surface', rowIndex)"
+                                                    *ngIf="editing[rowIndex + '-surface']" type="text"
+                                                    [value]="value" />
+                                            </ng-template>
+                                        </ngx-datatable-column>
+                                        <ngx-datatable-column name="Nombre">
+                                            <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex"
+                                                let-value="value" let-row="row">
+                                                <span title="Double click to edit"
+                                                    (dblclick)="editing[rowIndex + '-nombre'] = true"
+                                                    *ngIf="!editing[rowIndex + '-nombre']">
+                                                    {{ value }}
+                                                </span>
+                                                <input autofocus (blur)="updateValue($event, 'nombre', rowIndex)"
+                                                    *ngIf="editing[rowIndex + '-nombre']" type="text" [value]="value" />
+                                            </ng-template>
+                                        </ngx-datatable-column>
+                                        <ngx-datatable-column name="Actions" sortable="false" [width]="120">
+                                            <ng-template let-value="value" let-row="row" let-rowIndex="rowIndex"
+                                                ngx-datatable-cell-template>
+                                                <span>
+                                                    <!-- <button class="btn tblActnBtn h-auto" (click)='editRow(row, rowIndex, editRecord)'>
+                                                  <i class="material-icons">mode_edit</i>
+                                                </button> -->
+                                                    <button class="btn tblActnBtn h-auto" (click)='deleteRow(row)'>
+                                                        <i class="material-icons">delete</i>
+                                                    </button>
+                                                </span>
+                                            </ng-template>
+                                        </ngx-datatable-column>
+                                    </ngx-datatable>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
+
+
     </div>
+
     <div>
-        <button mat-button color="accent" class="msr-2" (click)="onRetour()">retour</button>
-        <button mat-raised-button color="primary" [disabled]="!typeGroup.valid">Valider</button>
+        <button mat-button color="warn" class="msr-2" (click)="onRetour()">retour</button>
+        <button mat-raised-button color="primary" [disabled]="!typeGroup.valid"  (click)="onSubmit()"
+            >Valider</button>
     </div>
 </form>

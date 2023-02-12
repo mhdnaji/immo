@@ -4,3 +4,88 @@
     border: 1px solid black;
     padding: 10px;
   }
+
+
+  .personalisationHeader {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    border-color: #e6e9ed;
+    background-color: #ebebee;
+    // min-width: 800px;
+    height: 70px;
+  
+    .header-buttons {
+      position: absolute;
+      right: 30px;
+      list-style: none;
+      margin-bottom: 0px;
+  
+      li {
+        display: inline-block;
+      }
+  
+      .material-icons {
+        color: #000000;
+        vertical-align: text-bottom;
+      }
+    }
+  
+    .header-buttons-left {
+      position: absolute;
+      list-style: none;
+  
+      li {
+        display: inline-block;
+      }
+  
+      .searchbox {
+        position: relative;
+      }
+  
+      ::placeholder {
+        color: rgba(0, 0, 0, 0.54);
+      }
+  
+      .search-icon {
+        position: absolute;
+        top: 10px;
+        padding-left: 10px;
+        color: rgba(0, 0, 0, 0.54);
+      }
+  
+      input.search-field {
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.54);
+        border-radius: 25px;
+        border: 0;
+        height: 45px;
+        padding: 8px 8px 8px 50px;
+        width: 250px;
+        background: #ffffff;
+        transition: background 0.2s, width 0.2s;
+  
+        &:hover {
+          background: #fffefe;
+        }
+  
+        &:focus {
+          outline: none;
+          width: 380px;
+          color: #212121;
+  
+          &:hover {
+            background: #f7f7f7;
+          }
+        }
+      }
+    }
+  
+    h2 {
+      margin: 0;
+      font-size: 16px;
+      font-weight: normal;
+      color: #5b626b;
+    }
+  }
+  

@@ -127,7 +127,7 @@ export class LocalisationComponent implements OnInit {
     });
   }
   public getVilles() {
-    this.appService.getVilles2().subscribe({
+    this.appService.getVilles().subscribe({
       next: (response: any) => {
         this.villes = response
         console.log('response', response);

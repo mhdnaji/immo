@@ -1,30 +1,103 @@
 <section class="content">
-     
-          <div class="row">
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex align-items-center">
-              <div class="card">
-                <div class="header">
-                  <h2>Information du Bien:</h2>
-                </div>
-                <div class="body">
-                
-                  <div *ngFor="let item of  infosUser">  
-                    <p>{{ item.key }}: {{ item.value }}</p>
-                  </div>
-        
+  <div class="container-fluid">
+    <div class="block-header">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <ul class="breadcrumb breadcrumb-style ">
+            <li class="breadcrumb-item">
+              <h4 class="page-title">Estimation du bien</h4>
+            </li>
+            <li class="breadcrumb-item bcrumb-1">
+              <a href="#" onClick="return false;">
+                <i class="fas fa-home"></i>Accueil</a>
+            </li>
+            <li class="breadcrumb-item bcrumb-2">
+              <a routerLink="/info-projet">Informations</a>
+            </li>
+            <li class="breadcrumb-item bcrumb-3">
+              <a routerLink="/estimation">Estimation</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex align-items-center">
-              <div class="card ">
-                <div class="header  ">
-                  <h2>Estimation :</h2> 75 900 € 
-                </div>
-              
-              </div>
-            </div>
-          </div>
+    <div class="row">
+      <div class="card">
+        <h4>Notre proposition:</h4>
+        <mat-label>Duplex 4P Moyen standing avec une surface utile de 100 m2</mat-label>
+        <mat-label>Garage 2 voiture </mat-label>
 
-  </section>
-  
+        <!-- Ville:{{dataService.infosUser.ville}}
+              Commune        :{{dataService.infosUser.commune        }},&nbsp;
+              Quartier       :{{dataService.infosUser.quartier       }},&nbsp;
+              Zone           :{{dataService.infosUser.zone           }},&nbsp;
+              TitreDeProp    :{{dataService.infosUser.titreDeProp    }},&nbsp;
+              DateObtention  :{{dataService.infosUser.dateObtention  }},&nbsp;
+              Surface        :{{dataService.infosUser.surface        }},&nbsp;
+              Topologie      :{{dataService.infosUser.topologie      }},&nbsp;
+              Dim            :,&nbsp;
+              TypeDeBien     :{{dataService.infosUser.typeDeBien     }},&nbsp;
+              Nombre pieces  :{{dataService.infosUser.nbPieces       }},&nbsp;
+              Personalisation: -->
+      </div>
+    </div>
+    <div class="row">
+      <div class="card col-xs-12 col-sm-12 col-md-12 col-lg-6">
+        <h4>Estimation du budget de construction</h4>
+        <!-- <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+          <ng-container matColumnDef="designation">
+            <th mat-header-cell *matHeaderCellDef>Designation </th>
+            <td mat-cell *matCellDef="let element"> {{element.designation}} </td>
+          </ng-container>
+
+          <ng-container matColumnDef="min">
+            <th mat-header-cell *matHeaderCellDef> Min </th>
+            <td mat-cell *matCellDef="let element"> {{element.min}} </td>
+          </ng-container>
+
+          <ng-container matColumnDef="estimation">
+            <th mat-header-cell *matHeaderCellDef> Budget estimé </th>
+            <td mat-cell *matCellDef="let element"> {{element.estimation}} </td>
+          </ng-container>
+
+          <ng-container matColumnDef="max">
+            <th mat-header-cell *matHeaderCellDef> Max </th>
+            <td mat-cell *matCellDef="let element"> {{element.max}} </td>
+          </ng-container>
+
+          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        </table> -->
+        <div>
+          <ngx-datatable [rows]="rows" [columns]="columns" #mydatatable class="material" [headerHeight]="50"
+            [scrollbarH]="true" [scrollbarV]="true" [rows]="rows" [externalPaging]="false">
+            <ngx-datatable-column name="designation" prop="designation" [frozenLeft]="true" [maxWidth]="400">
+              <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex" let-value="value" let-row="row">
+                <div style="text-align: left ; " > {{ value }}</div>
+              </ng-template>
+            </ngx-datatable-column>
+            <ngx-datatable-column name="min" prop="min" [maxWidth]="100">
+              <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex" let-value="value" let-row="row"  >
+                <div style="text-align: right;" > {{ value |thousandSeparator }}</div>
+            </ng-template>
+          </ngx-datatable-column>
+            <ngx-datatable-column name="Budget estimé" prop="estimation" [maxWidth]="100">
+              <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex" let-value="value" let-row="row">
+                <div style="text-align: right;"> {{ value |thousandSeparator }}</div>
+            </ng-template>
+          </ngx-datatable-column>
+            <ngx-datatable-column name="max" prop="max" [frozenRight]="true" [maxWidth]="100">
+              <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex" let-value="value" let-row="row">
+                  <div style="text-align: right;"> {{ value |thousandSeparator }}</div>
+              </ng-template>
+            </ngx-datatable-column>
+          </ngx-datatable>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</section>

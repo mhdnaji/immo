@@ -22,7 +22,7 @@
                             <mat-form-field>
                                 <mat-label>Topologie</mat-label>
                                 <mat-select formControlName="topoPropControl" required>
-                                    <mat-option *ngFor="let topoProp of toposProp  " [value]="topoProp">
+                                    <mat-option *ngFor="let topoProp of toposProp  " [value]="topoProp.nom">
                                         {{ topoProp.label }}
                                     </mat-option>
                                 </mat-select>

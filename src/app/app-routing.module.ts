@@ -8,7 +8,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { AuthGuard } from './core/guard/auth.guard';
 //import { BienComponent } from './bien/bien.component';
 const routes: Routes = [
-  {
+   {
     path: '',
     component: ImmoMainLayoutComponent,
     canActivate: [AuthGuard],
@@ -33,6 +33,7 @@ const routes: Routes = [
   },
 
   {
+    
     path: 'origin',
     component: MainLayoutComponent,
     canActivate: [AuthGuard],

@@ -70,7 +70,7 @@ export class TitreComponent implements OnInit {
   storeInfosUser(){
 
 
-    this.dataService.infosUser.TitreDeProp = this.titreGroup.value.titreControl ;
+    this.dataService.infosUser.titreDeProp = this.titreGroup.value.titreControl ;
     this.dataService.infosUser.dateObtention =  this.titreGroup.value.dateControl ;
     
     this.dataService.storeInfosUser();
@@ -82,7 +82,7 @@ export class TitreComponent implements OnInit {
   
   initControlValues(){
 
-    this.titreGroup.get('titreControl').setValue(this.dataService.infosUser.TitreDeProp);
+    this.titreGroup.get('titreControl').setValue(this.dataService.infosUser.titreDeProp);
     this.titreGroup.get('dateControl').setValue(this.dataService.infosUser.dateObtention);
    
   }

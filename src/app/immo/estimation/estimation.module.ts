@@ -38,8 +38,9 @@ import { NgxMaskModule } from 'ngx-mask';
 import { OwlDateTimeModule, OwlNativeDateTimeModule } from 'ng-pick-datetime';
 import { SharedModule } from '../../shared/shared.module';
 import { ComponentsModule } from '../../shared/components/components.module';
-import { EstimationComponent } from './estimation.component';
-
+import { EstimationComponent,ThousandSeparatorPipe } from './estimation.component';
+import { NgxDatatableModule } from '@swimlane/ngx-datatable';
+import { MatTableModule } from "@angular/material/table"
 @NgModule({
   declarations: [
     // EditorsComponent,
@@ -49,9 +50,11 @@ import { EstimationComponent } from './estimation.component';
     // FormControlsComponent,
     // AdvanceControlsComponent,
     EstimationComponent, 
+    ThousandSeparatorPipe,
   ],
   imports: [
- 
+    NgxDatatableModule,
+    MatTableModule,
     CommonModule,
     EstimationRoutingModule,
     FormsModule,
@@ -85,5 +88,8 @@ import { EstimationComponent } from './estimation.component';
     SharedModule,
     ComponentsModule,
   ],
+  exports:[
+    ThousandSeparatorPipe,
+  ]
 })
 export class EstimationModule {}

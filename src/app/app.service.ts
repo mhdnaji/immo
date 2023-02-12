@@ -23,10 +23,10 @@ export class AppService {
        private http: HttpClient
     ) { }
 
-   getVilles() {
-     return  this.http.get(`http://188.165.231.114:8060/immo/backend/getVilles`).pipe(
-      map(data => data));
-   }
+  //  getVilles() {
+  //    return  this.http.get(`http://188.165.231.114:8060/immo/backend/getVilles`).pipe(
+  //     map(data => data));
+  //  }
 
   
    getCommunes() {
@@ -34,13 +34,11 @@ export class AppService {
       map(data => data));
   }
 
-
- 
-
-  getVilles2() {
-    return  this.http.get(`http://188.165.231.114:8060/immo/backend/getVilles2`).pipe(
+  getVilles() {
+    return  this.http.get(`http://188.165.231.114:8060/immo/backend/getVilles`).pipe(
       map(data => data));
   }
+
  //   public getProducts(type): Observable<Product[]>{
  //     return this.http.get<Product[]>(this.url + type + '-products.json');
  // }
