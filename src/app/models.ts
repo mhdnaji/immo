@@ -37,6 +37,8 @@ export interface InfosSearch {
    typeDeBien: any ,
    nbPieces:number,
    personalisation ,
+   standing,
+   garage,
 
    
   //  codePostal: number,

@@ -5231,3 +5231,4569 @@ Build at: 2023-02-12T13:52:58.627Z - Hash: 96241a71e75c0b1b - Time: 2335ms
 Build at: 2023-02-12T13:53:31.148Z - Hash: 96241a71e75c0b1b - Time: 2001ms
 
 ✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                                                                                     | Names                                     |  Raw Size
+main.js                                                                                                 | main                                      | 174.53 kB |
+runtime.js                                                                                              | runtime                                   |  12.60 kB |
+
+Lazy Chunk Files                                                                                        | Names                                     |  Raw Size
+default-src_app_app_service_ts-src_app_shared_components_components_module_ts-node_modules_ck-efb244.js | immo-info-projet-info-projet-module       |   1.74 MB |
+src_app_immo_estimation_estimation_module_ts.js                                                         | immo-estimation-estimation-module         | 228.55 kB |
+src_app_immo_info-projet_info-projet_module_ts.js                                                       | immo-info-projet-info-projet-module       | 227.99 kB |
+src_app_immo_authentication_authentication_module_ts.js                                                 | immo-authentication-authentication-module |  45.79 kB |
+
+4 unchanged chunks
+
+Build at: 2023-02-12T15:58:55.017Z - Hash: 0a8e8643bf940066 - Time: 8991ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                                                                                     | Names                               |  Raw Size
+main.js                                                                                                 | main                                | 191.14 kB |
+runtime.js                                                                                              | runtime                             |  12.94 kB |
+
+Lazy Chunk Files                                                                                        | Names                               |  Raw Size
+default-node_modules_ng2-charts___ivy_ngcc___fesm2015_ng2-charts_js-node_modules_ng-apexchart-8d13e5.js | widget-widget-module                |   1.78 MB |
+src_app_charts_charts_module_ts.js                                                                      | charts-charts-module                |   1.65 MB |
+src_app_immo_info-projet_info-projet_module_ts.js                                                       | immo-info-projet-info-projet-module |  79.36 kB |
+src_app_immo_estimation_estimation_module_ts.js                                                         | immo-estimation-estimation-module   |  23.37 kB |
+
+50 unchanged chunks
+
+Build at: 2023-02-12T16:03:37.505Z - Hash: a6438c08da193054 - Time: 62825ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                | Names                |  Raw Size
+main.js                            | main                 | 191.66 kB |
+runtime.js                         | runtime              |  12.94 kB |
+
+Lazy Chunk Files                   | Names                |  Raw Size
+src_app_charts_charts_module_ts.js | charts-charts-module |   1.62 MB |
+
+56 unchanged chunks
+
+Build at: 2023-02-12T16:03:40.672Z - Hash: 67309afb92123942 - Time: 2695ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                | Names                |  Raw Size
+main.js                            | main                 | 191.14 kB |
+runtime.js                         | runtime              |  12.94 kB |
+
+Lazy Chunk Files                   | Names                |  Raw Size
+src_app_charts_charts_module_ts.js | charts-charts-module |   1.65 MB |
+
+53 unchanged chunks
+
+Build at: 2023-02-12T16:07:57.592Z - Hash: 9065596da8e530b5 - Time: 3204ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+56 unchanged chunks
+
+Build at: 2023-02-12T16:12:39.438Z - Hash: 9065596da8e530b5 - Time: 2710ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                | Names                |  Raw Size
+main.js                            | main                 | 192.17 kB |
+runtime.js                         | runtime              |  12.94 kB |
+
+Lazy Chunk Files                   | Names                |  Raw Size
+src_app_charts_charts_module_ts.js | charts-charts-module |   1.62 MB |
+
+56 unchanged chunks
+
+Build at: 2023-02-12T16:14:27.435Z - Hash: 16c13d55bcf01649 - Time: 4899ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 191.84 kB |
+runtime.js          | runtime |  12.94 kB |
+
+57 unchanged chunks
+
+Build at: 2023-02-12T16:14:47.607Z - Hash: d29c8dd92b1bdbba - Time: 2314ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                               | Names                               |  Raw Size
+main.js                                           | main                                | 174.86 kB |
+runtime.js                                        | runtime                             |  12.60 kB |
+
+Lazy Chunk Files                                  | Names                               |  Raw Size
+src_app_dashboard_dashboard_module_ts.js          | dashboard-dashboard-module          | 790.23 kB |
+src_app_immo_estimation_estimation_module_ts.js   | immo-estimation-estimation-module   | 228.55 kB |
+src_app_immo_info-projet_info-projet_module_ts.js | immo-info-projet-info-projet-module | 227.99 kB |
+
+7 unchanged chunks
+
+Build at: 2023-02-12T16:15:19.600Z - Hash: 92418f902e3e96aa - Time: 5345ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 174.86 kB |
+runtime.js          | runtime |  12.60 kB |
+
+10 unchanged chunks
+
+Build at: 2023-02-12T16:17:20.455Z - Hash: ec7d689f80f746ce - Time: 2192ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+12 unchanged chunks
+
+Build at: 2023-02-12T16:18:02.194Z - Hash: ec7d689f80f746ce - Time: 1916ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                      | Names                      |  Raw Size
+vendor.js                                | vendor                     |   6.43 MB |
+main.js                                  | main                       | 175.04 kB |
+runtime.js                               | runtime                    |  12.60 kB |
+
+Lazy Chunk Files                         | Names                      |  Raw Size
+src_app_dashboard_dashboard_module_ts.js | dashboard-dashboard-module |  61.92 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-12T22:28:39.614Z - Hash: 9c7e17a5d11ad297 - Time: 15092ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                      | Names                      |  Raw Size
+vendor.js                                | vendor                     |   5.72 MB |
+main.js                                  | main                       | 174.86 kB |
+runtime.js                               | runtime                    |  12.60 kB |
+
+Lazy Chunk Files                         | Names                      |  Raw Size
+src_app_dashboard_dashboard_module_ts.js | dashboard-dashboard-module | 790.23 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-12T22:30:54.225Z - Hash: 41fbad70d5c9ed98 - Time: 2821ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+12 unchanged chunks
+
+Build at: 2023-02-12T22:33:53.125Z - Hash: 41fbad70d5c9ed98 - Time: 2068ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                                                                                     | Names                               |  Raw Size
+main.js                                                                                                 | main                                | 176.66 kB |
+runtime.js                                                                                              | runtime                             |  12.94 kB |
+
+Lazy Chunk Files                                                                                        | Names                               |  Raw Size
+default-src_app_app_service_ts-src_app_shared_components_components_module_ts-node_modules_ck-3e8d7b.js | immo-info-projet-info-projet-module |   1.51 MB |
+src_app_widget_widget_module_ts.js                                                                      | widget-widget-module                | 518.39 kB |
+src_app_dashboard_dashboard_module_ts.js                                                                | dashboard-dashboard-module          |  39.04 kB |
+
+14 unchanged chunks
+
+Build at: 2023-02-12T22:40:44.580Z - Hash: b8f5ae1384eb529e - Time: 11314ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 176.66 kB |
+runtime.js          | runtime |  12.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-12T22:48:39.353Z - Hash: 607bed74470bc798 - Time: 2464ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 176.66 kB |
+runtime.js          | runtime |  12.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-12T23:24:22.122Z - Hash: 0e6aa8e595e9531a - Time: 2328ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 228.54 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-12T23:56:08.780Z - Hash: b65bfbf1b0b9b504 - Time: 2214ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 228.54 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-12T23:57:00.834Z - Hash: e7a4c89c199ea4c5 - Time: 2202ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 228.52 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-13T00:00:29.827Z - Hash: 230a02d24e11f8bb - Time: 2141ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 228.50 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-13T00:01:08.736Z - Hash: fe5ceb8a9d33e4f8 - Time: 1997ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 228.52 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-13T00:02:31.145Z - Hash: a2002fa78f6242ed - Time: 2159ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                                     | Names                                     | Raw Size
+runtime.js                                              | runtime                                   | 12.94 kB |
+
+Lazy Chunk Files                                        | Names                                     | Raw Size
+src_app_immo_authentication_authentication_module_ts.js | immo-authentication-authentication-module | 45.78 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-13T00:07:29.327Z - Hash: 78c4b2927b23806d - Time: 2616ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 177.22 kB |
+runtime.js          | runtime |  12.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-13T22:58:43.981Z - Hash: 0cab2d06e4bc57af - Time: 2370ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 177.21 kB |
+runtime.js          | runtime |  12.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-13T22:59:30.633Z - Hash: 07e98280440bfd14 - Time: 2066ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 177.67 kB |
+runtime.js          | runtime |  12.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-13T23:11:42.579Z - Hash: 83240763bde6c2c1 - Time: 2475ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 177.65 kB |
+runtime.js          | runtime |  12.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-13T23:12:36.881Z - Hash: 3f44682ccee6cbca - Time: 2454ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 177.63 kB |
+runtime.js          | runtime |  12.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-13T23:14:01.372Z - Hash: af88c7f5d4710a3d - Time: 2504ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+19 unchanged chunks
+
+Build at: 2023-02-13T23:28:28.989Z - Hash: af88c7f5d4710a3d - Time: 2137ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+19 unchanged chunks
+
+Build at: 2023-02-13T23:28:31.062Z - Hash: af88c7f5d4710a3d - Time: 1768ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 177.64 kB |
+runtime.js          | runtime |  12.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-13T23:29:47.018Z - Hash: f733e7d7ac01e232 - Time: 2497ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 177.63 kB |
+runtime.js          | runtime |  12.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-13T23:45:35.665Z - Hash: dac79d62cad14be1 - Time: 2029ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 177.63 kB |
+runtime.js          | runtime |  12.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-13T23:46:03.207Z - Hash: 8ece505fcae56429 - Time: 1860ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 177.62 kB |
+runtime.js          | runtime |  12.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-14T00:00:51.995Z - Hash: e925044d08a76cee - Time: 2390ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 177.63 kB |
+runtime.js          | runtime |  12.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-14T00:06:04.591Z - Hash: 4e9565c7c25c7932 - Time: 2372ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 177.63 kB |
+runtime.js          | runtime |  12.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-14T00:09:37.674Z - Hash: dd4452208036368d - Time: 2490ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 177.61 kB |
+runtime.js          | runtime |  12.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-14T00:10:53.956Z - Hash: 58af375b6cbb66f1 - Time: 2416ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 177.63 kB |
+runtime.js          | runtime |  12.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-14T00:11:26.062Z - Hash: 30fad6658a211f64 - Time: 2292ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 177.63 kB |
+runtime.js          | runtime |  12.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-14T00:11:46.359Z - Hash: 6096c74970fdc36d - Time: 1955ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 177.63 kB |
+runtime.js          | runtime |  12.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-14T00:12:03.295Z - Hash: e084397df335666e - Time: 1931ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 177.63 kB |
+runtime.js          | runtime |  12.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-14T00:12:11.449Z - Hash: 6096c74970fdc36d - Time: 1768ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                               | Names                               |  Raw Size
+runtime.js                                        | runtime                             |  12.94 kB |
+
+Lazy Chunk Files                                  | Names                               |  Raw Size
+src_app_immo_info-projet_info-projet_module_ts.js | immo-info-projet-info-projet-module | 227.99 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-15T17:33:47.931Z - Hash: 948fd26b666d2589 - Time: 2005ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                               | Names                               |  Raw Size
+runtime.js                                        | runtime                             |  12.94 kB |
+
+Lazy Chunk Files                                  | Names                               |  Raw Size
+src_app_immo_info-projet_info-projet_module_ts.js | immo-info-projet-info-projet-module | 228.83 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-15T17:40:39.563Z - Hash: c3a04727106a8dca - Time: 2205ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                               | Names                               |  Raw Size
+runtime.js                                        | runtime                             |  12.94 kB |
+
+Lazy Chunk Files                                  | Names                               |  Raw Size
+src_app_immo_info-projet_info-projet_module_ts.js | immo-info-projet-info-projet-module | 228.58 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-15T17:42:36.830Z - Hash: 2180a4d45df83274 - Time: 2235ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                               | Names                               |  Raw Size
+runtime.js                                        | runtime                             |  12.94 kB |
+
+Lazy Chunk Files                                  | Names                               |  Raw Size
+src_app_immo_info-projet_info-projet_module_ts.js | immo-info-projet-info-projet-module | 228.59 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-15T17:44:23.120Z - Hash: c98a9ee5feafac6b - Time: 2042ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                               | Names                               |  Raw Size
+runtime.js                                        | runtime                             |  12.94 kB |
+
+Lazy Chunk Files                                  | Names                               |  Raw Size
+src_app_immo_info-projet_info-projet_module_ts.js | immo-info-projet-info-projet-module | 229.20 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-15T17:50:42.845Z - Hash: 59141c90696f4d80 - Time: 2135ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+19 unchanged chunks
+
+Build at: 2023-02-15T17:50:55.323Z - Hash: 59141c90696f4d80 - Time: 1743ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                               | Names                               |  Raw Size
+runtime.js                                        | runtime                             |  12.94 kB |
+
+Lazy Chunk Files                                  | Names                               |  Raw Size
+src_app_immo_info-projet_info-projet_module_ts.js | immo-info-projet-info-projet-module | 229.17 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-15T17:52:46.449Z - Hash: cda6256af301f187 - Time: 2047ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                                                                                     | Names                               |  Raw Size
+runtime.js                                                                                              | runtime                             |  12.94 kB |
+
+Lazy Chunk Files                                                                                        | Names                               |  Raw Size
+default-src_app_app_service_ts-src_app_shared_components_components_module_ts-node_modules_ck-3e8d7b.js | immo-info-projet-info-projet-module |   1.51 MB |
+src_app_immo_info-projet_info-projet_module_ts.js                                                       | immo-info-projet-info-projet-module | 229.17 kB |
+
+16 unchanged chunks
+
+Build at: 2023-02-15T17:57:16.586Z - Hash: 7330e9667be89674 - Time: 3125ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                               | Names                               |  Raw Size
+runtime.js                                        | runtime                             |  12.94 kB |
+
+Lazy Chunk Files                                  | Names                               |  Raw Size
+src_app_immo_info-projet_info-projet_module_ts.js | immo-info-projet-info-projet-module | 229.51 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-15T17:58:22.531Z - Hash: 9257be78e685fca6 - Time: 2624ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                               | Names                               |  Raw Size
+runtime.js                                        | runtime                             |  12.94 kB |
+
+Lazy Chunk Files                                  | Names                               |  Raw Size
+src_app_immo_info-projet_info-projet_module_ts.js | immo-info-projet-info-projet-module | 229.68 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-15T18:01:11.737Z - Hash: df0d173dcaed0c0b - Time: 2787ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                               | Names                               |  Raw Size
+runtime.js                                        | runtime                             |  12.94 kB |
+
+Lazy Chunk Files                                  | Names                               |  Raw Size
+src_app_immo_info-projet_info-projet_module_ts.js | immo-info-projet-info-projet-module | 229.74 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-15T18:02:13.893Z - Hash: 955dd190733b7b77 - Time: 2196ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                               | Names                               |  Raw Size
+runtime.js                                        | runtime                             |  12.94 kB |
+
+Lazy Chunk Files                                  | Names                               |  Raw Size
+src_app_immo_info-projet_info-projet_module_ts.js | immo-info-projet-info-projet-module | 230.02 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-15T18:16:51.188Z - Hash: 0feacad5442c5457 - Time: 2980ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                               | Names                               |  Raw Size
+runtime.js                                        | runtime                             |  12.94 kB |
+
+Lazy Chunk Files                                  | Names                               |  Raw Size
+src_app_immo_info-projet_info-projet_module_ts.js | immo-info-projet-info-projet-module | 230.22 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-15T18:18:10.563Z - Hash: f024e9252a97899c - Time: 2060ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                               | Names                               |  Raw Size
+runtime.js                                        | runtime                             |  12.94 kB |
+
+Lazy Chunk Files                                  | Names                               |  Raw Size
+src_app_immo_info-projet_info-projet_module_ts.js | immo-info-projet-info-projet-module | 230.31 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-15T18:19:13.874Z - Hash: 1f2cd40680537c4b - Time: 2174ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                               | Names                               |  Raw Size
+runtime.js                                        | runtime                             |  12.94 kB |
+
+Lazy Chunk Files                                  | Names                               |  Raw Size
+src_app_immo_info-projet_info-projet_module_ts.js | immo-info-projet-info-projet-module | 230.30 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-15T18:19:43.665Z - Hash: 80d22f472f96190e - Time: 1925ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                               | Names                               |  Raw Size
+runtime.js                                        | runtime                             |  12.94 kB |
+
+Lazy Chunk Files                                  | Names                               |  Raw Size
+src_app_immo_info-projet_info-projet_module_ts.js | immo-info-projet-info-projet-module | 230.65 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-15T18:28:59.890Z - Hash: 8a417428fbaed0e5 - Time: 2232ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                               | Names                               |  Raw Size
+runtime.js                                        | runtime                             |  12.94 kB |
+
+Lazy Chunk Files                                  | Names                               |  Raw Size
+src_app_immo_info-projet_info-projet_module_ts.js | immo-info-projet-info-projet-module | 230.65 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-15T18:29:58.010Z - Hash: 90d08e2de32f10c6 - Time: 2817ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                               | Names                               |  Raw Size
+runtime.js                                        | runtime                             |  12.94 kB |
+
+Lazy Chunk Files                                  | Names                               |  Raw Size
+src_app_immo_info-projet_info-projet_module_ts.js | immo-info-projet-info-projet-module | 230.67 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-15T18:31:01.678Z - Hash: ad585050c6746dff - Time: 2171ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+19 unchanged chunks
+
+Build at: 2023-02-15T18:31:31.331Z - Hash: ad585050c6746dff - Time: 2046ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                               | Names                               |  Raw Size
+runtime.js                                        | runtime                             |  12.94 kB |
+
+Lazy Chunk Files                                  | Names                               |  Raw Size
+src_app_immo_info-projet_info-projet_module_ts.js | immo-info-projet-info-projet-module | 230.68 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-15T18:32:44.173Z - Hash: 5ed5f650bf8cda83 - Time: 2274ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                               | Names                               |  Raw Size
+runtime.js                                        | runtime                             |  12.94 kB |
+
+Lazy Chunk Files                                  | Names                               |  Raw Size
+src_app_immo_info-projet_info-projet_module_ts.js | immo-info-projet-info-projet-module | 230.73 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-15T18:35:35.089Z - Hash: dbe58de39c267da6 - Time: 2182ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                               | Names                               |  Raw Size
+runtime.js                                        | runtime                             |  12.94 kB |
+
+Lazy Chunk Files                                  | Names                               |  Raw Size
+src_app_immo_info-projet_info-projet_module_ts.js | immo-info-projet-info-projet-module | 230.93 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-15T18:37:49.103Z - Hash: f7b01ed41c955337 - Time: 2845ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                               | Names                               |  Raw Size
+runtime.js                                        | runtime                             |  12.94 kB |
+
+Lazy Chunk Files                                  | Names                               |  Raw Size
+src_app_immo_info-projet_info-projet_module_ts.js | immo-info-projet-info-projet-module | 231.27 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-15T18:39:40.276Z - Hash: 165006fe3700f289 - Time: 2171ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                               | Names                               |  Raw Size
+runtime.js                                        | runtime                             |  12.94 kB |
+
+Lazy Chunk Files                                  | Names                               |  Raw Size
+src_app_immo_info-projet_info-projet_module_ts.js | immo-info-projet-info-projet-module | 231.18 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-15T18:42:21.579Z - Hash: 693c7a9b55d508eb - Time: 2301ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                               | Names                               |  Raw Size
+runtime.js                                        | runtime                             |  12.94 kB |
+
+Lazy Chunk Files                                  | Names                               |  Raw Size
+src_app_immo_info-projet_info-projet_module_ts.js | immo-info-projet-info-projet-module | 228.80 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-15T18:51:05.536Z - Hash: 5e4d3760dfa88baa - Time: 2280ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                               | Names                               |  Raw Size
+runtime.js                                        | runtime                             |  12.94 kB |
+
+Lazy Chunk Files                                  | Names                               |  Raw Size
+src_app_immo_info-projet_info-projet_module_ts.js | immo-info-projet-info-projet-module | 228.74 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-15T18:52:48.623Z - Hash: c38a007f209dac04 - Time: 2265ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                               | Names                               |  Raw Size
+runtime.js                                        | runtime                             |  12.94 kB |
+
+Lazy Chunk Files                                  | Names                               |  Raw Size
+src_app_immo_info-projet_info-projet_module_ts.js | immo-info-projet-info-projet-module | 228.74 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-15T18:54:01.331Z - Hash: d8c2cb4683244afd - Time: 2225ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 177.63 kB |
+runtime.js          | runtime |  12.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-16T18:16:31.965Z - Hash: 620388bfc0abf784 - Time: 2670ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 177.64 kB |
+runtime.js          | runtime |  12.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-16T18:18:05.309Z - Hash: 7bca19f8fe7d9a1a - Time: 2495ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 177.63 kB |
+runtime.js          | runtime |  12.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-16T18:18:27.645Z - Hash: 352fce4453318bb7 - Time: 2074ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 177.58 kB |
+runtime.js          | runtime |  12.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-16T18:20:26.776Z - Hash: 52da6610f2832f6a - Time: 2615ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+main.js                                         | main                              | 177.58 kB |
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 235.82 kB |
+
+16 unchanged chunks
+
+Build at: 2023-02-16T18:32:28.332Z - Hash: e3c508d6c89b7e0c - Time: 3415ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 233.98 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-16T18:45:19.849Z - Hash: 314d45ff8e13b935 - Time: 2275ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 233.93 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-16T18:46:16.418Z - Hash: f3a4985ecfde4b2f - Time: 2238ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 233.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-16T18:47:35.739Z - Hash: 8af645d209be26a0 - Time: 2745ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 234.06 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-16T18:48:07.821Z - Hash: 9904def7c84e6621 - Time: 2223ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 234.06 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-16T18:49:45.066Z - Hash: 5068608b0892b369 - Time: 2268ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.20 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-16T18:54:10.302Z - Hash: b99711d8a519f6be - Time: 2322ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.08 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-16T18:54:54.809Z - Hash: f9145885309b684e - Time: 2256ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.06 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T15:30:49.841Z - Hash: a880beaa9417f863 - Time: 2273ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 237.62 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T15:39:38.834Z - Hash: 27af428b9c2dab4c - Time: 2188ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 237.61 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T15:44:55.281Z - Hash: c1bf393525204d0b - Time: 2149ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 237.76 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T15:48:08.346Z - Hash: 5f3a519e4cf4af91 - Time: 2259ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 237.77 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T15:49:26.559Z - Hash: c323b6f6de6b7dcf - Time: 2214ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 237.78 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T15:49:56.123Z - Hash: cd3651c4061b1225 - Time: 2031ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 237.68 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T15:55:50.462Z - Hash: 6381b365f026519f - Time: 2268ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 237.68 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T15:59:30.790Z - Hash: 2a9fc4c6a815e35a - Time: 2348ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 237.68 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T19:41:36.219Z - Hash: 9fbe605db2866232 - Time: 2213ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 237.68 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T19:41:53.797Z - Hash: 2a9fc4c6a815e35a - Time: 1910ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 237.78 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T19:54:43.956Z - Hash: fcf749b6affcffa4 - Time: 2213ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 237.78 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T19:58:11.179Z - Hash: a92c1699982254af - Time: 2308ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 237.78 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T19:58:34.941Z - Hash: 796ae01745a5875e - Time: 2150ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 237.78 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T19:59:37.842Z - Hash: a5eeceaa9e3133e7 - Time: 2272ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 237.76 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T20:04:42.398Z - Hash: 97eafc9b22b1a339 - Time: 2241ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 237.76 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T20:13:35.738Z - Hash: c4d4f0c185bb335a - Time: 2878ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 237.93 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T20:20:08.917Z - Hash: 2761f206602d4c7b - Time: 2244ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 237.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T20:21:11.023Z - Hash: 7f41732cd4299a23 - Time: 2266ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 238.06 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T20:26:37.052Z - Hash: 0f8d942ef42a931a - Time: 2181ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 238.09 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T20:27:29.887Z - Hash: 05c5486dd0a2a882 - Time: 2232ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 238.12 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T20:31:32.984Z - Hash: bbb71e7b6f0cab5f - Time: 2235ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 238.14 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T20:34:02.244Z - Hash: 341a4c762c7c3feb - Time: 2383ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 238.20 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T20:35:21.462Z - Hash: 80288b9e54ed2080 - Time: 2337ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 238.22 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T20:38:53.935Z - Hash: 28ae7955acaec838 - Time: 2324ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 238.41 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T20:44:43.901Z - Hash: c1d0f0684995a948 - Time: 2345ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 238.41 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T20:45:40.349Z - Hash: 61080ff91ba32799 - Time: 2360ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 238.41 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T20:46:32.866Z - Hash: c0f2d5565b24ca36 - Time: 2384ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 238.41 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T20:47:36.606Z - Hash: 7346ab0855323385 - Time: 2381ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 238.41 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T20:47:58.217Z - Hash: a00b36658c78c200 - Time: 2155ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 238.41 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T20:48:14.367Z - Hash: f09898d13f2d4294 - Time: 1949ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 238.41 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T20:48:38.851Z - Hash: 146f7c04e1f17bb2 - Time: 2096ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 238.41 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T20:48:55.243Z - Hash: dd08a551d0b92eb5 - Time: 1864ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 238.41 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T20:49:15.008Z - Hash: 6ced637b1e816e1f - Time: 1976ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 238.41 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T20:50:02.665Z - Hash: 8786b39950da8b8f - Time: 2228ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 238.41 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T20:50:35.495Z - Hash: e213d99cf0f97940 - Time: 2066ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 238.41 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T20:50:53.839Z - Hash: db87bd1dd8ed0c4d - Time: 1956ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 238.35 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T20:52:29.748Z - Hash: c6940a2ca019e4e9 - Time: 2263ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 238.35 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T20:53:22.737Z - Hash: 3234f14692849d34 - Time: 2245ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 238.41 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T20:54:01.472Z - Hash: db87bd1dd8ed0c4d - Time: 2329ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 238.37 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:03:05.081Z - Hash: 9cd31491d00190de - Time: 2254ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 238.93 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:22:52.313Z - Hash: daac2a726881489f - Time: 2212ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.72 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:23:47.544Z - Hash: 9d06c5635e0b6296 - Time: 2360ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.73 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:23:56.874Z - Hash: a483005de8e7228a - Time: 1952ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.00 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:26:37.142Z - Hash: 4444859ae8595c9e - Time: 2523ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.06 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:27:39.895Z - Hash: ceef698accaa6ba1 - Time: 2378ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.04 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:29:09.338Z - Hash: a48bba6b7989637c - Time: 2527ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.00 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:29:46.027Z - Hash: 722e8eb30dc5df9b - Time: 2376ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.02 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:31:00.556Z - Hash: db085d8c68fe7b8e - Time: 2383ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.10 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:33:24.441Z - Hash: 225f31c3e612e62e - Time: 2393ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.08 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:33:46.420Z - Hash: 0423dc66ed89eedd - Time: 2019ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.13 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:34:31.158Z - Hash: 95ba5892983d3724 - Time: 2360ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.19 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:35:14.986Z - Hash: 8b7e584629968799 - Time: 2445ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.01 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:38:30.737Z - Hash: 8c0ac95e0a0d410f - Time: 2398ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.03 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:38:47.830Z - Hash: 16097d1ac4a1be50 - Time: 1946ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.06 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:40:39.960Z - Hash: ed1b11c0f4249e3a - Time: 2359ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.06 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:41:16.883Z - Hash: 1c110957011d0e5b - Time: 2324ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.06 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:41:39.164Z - Hash: b0be620c90b94d8e - Time: 2095ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.06 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:43:17.815Z - Hash: 5cf761d88673a2e3 - Time: 2460ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.97 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:49:02.432Z - Hash: a6340c329afdb050 - Time: 2356ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.99 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:50:03.668Z - Hash: d781154ca0bc8940 - Time: 2368ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.10 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:52:50.920Z - Hash: 28c798e9bed2b6d6 - Time: 2467ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.11 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:53:34.651Z - Hash: 0f80339f0c917642 - Time: 2323ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.16 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:54:40.794Z - Hash: 8bade8164811cfab - Time: 2276ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.15 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:55:09.721Z - Hash: b23ee520fc8d7987 - Time: 2181ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.19 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:56:26.281Z - Hash: 98dd5163a6fed241 - Time: 2443ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+19 unchanged chunks
+
+Build at: 2023-02-17T21:56:34.040Z - Hash: 98dd5163a6fed241 - Time: 1926ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.26 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:56:40.314Z - Hash: 188c9f1b4c533a60 - Time: 1896ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.21 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:57:53.462Z - Hash: 499194cc5d8b0527 - Time: 2490ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.26 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T21:58:21.182Z - Hash: dce0093c8b94a3a5 - Time: 2169ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.30 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T22:00:32.666Z - Hash: 5d0b3925950090db - Time: 2378ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.30 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T22:03:02.217Z - Hash: 82b442298cceb931 - Time: 2494ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.26 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T22:03:20.339Z - Hash: f4a64c1b1651c4b6 - Time: 2082ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.26 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T22:04:12.721Z - Hash: dce0093c8b94a3a5 - Time: 2349ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.11 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T22:04:50.489Z - Hash: d07018e3c176f1ad - Time: 2157ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.12 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T22:07:24.471Z - Hash: 3360d60938b341a7 - Time: 2402ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.85 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T22:09:06.147Z - Hash: 52638743c9b64e8b - Time: 2428ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.42 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T22:13:20.134Z - Hash: 6e1028f5d855e83f - Time: 2318ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 177.40 kB |
+runtime.js          | runtime |  12.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T22:16:14.117Z - Hash: 7c124a9959dedcf4 - Time: 2794ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 177.40 kB |
+runtime.js          | runtime |  12.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T22:17:04.639Z - Hash: 17aaea54ed2198f7 - Time: 2729ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   |  Raw Size
+main.js             | main    | 177.40 kB |
+runtime.js          | runtime |  12.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T22:17:23.395Z - Hash: b42cd16aef0f22f2 - Time: 2415ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.46 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T22:19:29.485Z - Hash: 93824efb601894ca - Time: 2354ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.42 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T22:20:00.542Z - Hash: b42cd16aef0f22f2 - Time: 2195ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.57 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T22:20:20.878Z - Hash: 2d81e232557b35e9 - Time: 2891ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.57 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T22:20:54.929Z - Hash: c666bce18254c604 - Time: 2266ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.57 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T22:22:14.096Z - Hash: 5c445ac3d423fc67 - Time: 2333ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.57 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T22:24:42.328Z - Hash: 8937d31b2db1cf56 - Time: 2540ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.85 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T22:30:20.404Z - Hash: d56c2cebcf5ad5aa - Time: 2569ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.86 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T22:32:56.723Z - Hash: c8b65096c83a86f2 - Time: 2615ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.86 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T22:57:20.791Z - Hash: 8e71451447a43696 - Time: 2510ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.86 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T22:59:20.207Z - Hash: 28c003ac17b7b768 - Time: 2458ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.84 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:00:13.048Z - Hash: 8e229fbc220c10d7 - Time: 2444ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.88 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:01:01.501Z - Hash: 5ef05d7fb7b48122 - Time: 2434ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.86 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:01:18.537Z - Hash: 358d3bb75c5df3db - Time: 2004ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.84 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:02:01.433Z - Hash: 87a17cc7b8d5d972 - Time: 2280ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.88 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:02:42.086Z - Hash: 1fb1db9e7648afa1 - Time: 2179ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.86 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:03:33.288Z - Hash: 124646880835f783 - Time: 2292ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.86 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:04:27.590Z - Hash: bffdf0b4b569fb2a - Time: 2390ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.87 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:05:14.313Z - Hash: 0c7d00f88c6f66f0 - Time: 2572ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.89 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:05:44.385Z - Hash: 9878b9e3af0607af - Time: 2291ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+19 unchanged chunks
+
+Build at: 2023-02-17T23:08:15.558Z - Hash: 9878b9e3af0607af - Time: 2470ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 240.87 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:09:31.074Z - Hash: 0f0b58d33a5d9b81 - Time: 2612ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.48 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:12:19.473Z - Hash: 7571e50d26241832 - Time: 2597ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.38 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:12:59.943Z - Hash: f0b1b70314272535 - Time: 2477ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.41 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:13:48.861Z - Hash: 64554b526ad41d37 - Time: 2572ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.45 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:14:23.999Z - Hash: 09d56c9af50acac4 - Time: 2517ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.38 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:14:39.222Z - Hash: f0b1b70314272535 - Time: 2057ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.70 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:15:05.354Z - Hash: 6b086b0aec280c9b - Time: 2372ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.86 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:16:20.534Z - Hash: b8317ce6af74bdae - Time: 2987ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 242.11 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:17:08.435Z - Hash: 710a73babb5fcf7a - Time: 2450ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 242.31 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:18:17.277Z - Hash: 6d6382bb82706e3c - Time: 2600ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 242.45 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:18:49.773Z - Hash: 512bec561b5f12c4 - Time: 2566ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.49 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:20:21.448Z - Hash: b8aeac6404f4816c - Time: 2517ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.64 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:21:58.977Z - Hash: 2a268f540d9cc5ea - Time: 2552ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.97 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:23:16.777Z - Hash: 1f6cef2cd53082b0 - Time: 2543ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.98 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:24:04.939Z - Hash: 5e4711311e4f7234 - Time: 2336ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.94 kB |
+
+18 unchanged chunks
+
+Build at: 2023-02-17T23:26:32.777Z - Hash: abf125f63dbf9fd0 - Time: 10448ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.94 kB |
+
+18 unchanged chunks
+
+Build at: 2023-02-17T23:27:28.077Z - Hash: 26355a91dc7d9397 - Time: 6339ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.94 kB |
+
+18 unchanged chunks
+
+Build at: 2023-02-17T23:29:08.130Z - Hash: 4c6ed50ede2cf709 - Time: 6031ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.94 kB |
+
+18 unchanged chunks
+
+Build at: 2023-02-17T23:29:37.459Z - Hash: 5e4711311e4f7234 - Time: 5387ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.94 kB |
+
+18 unchanged chunks
+
+Build at: 2023-02-17T23:30:42.742Z - Hash: df9eb52a5495e800 - Time: 6279ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.94 kB |
+
+18 unchanged chunks
+
+Build at: 2023-02-17T23:31:02.233Z - Hash: 5e4711311e4f7234 - Time: 5139ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.94 kB |
+
+18 unchanged chunks
+
+Build at: 2023-02-17T23:32:11.634Z - Hash: 87b1c5851d3ab63e - Time: 5805ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.94 kB |
+
+18 unchanged chunks
+
+Build at: 2023-02-17T23:34:01.716Z - Hash: f0fb0b1e02dc8567 - Time: 5712ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.94 kB |
+
+18 unchanged chunks
+
+Build at: 2023-02-17T23:34:39.211Z - Hash: 470af0f00d103f16 - Time: 5405ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.94 kB |
+
+18 unchanged chunks
+
+Build at: 2023-02-17T23:35:08.002Z - Hash: f0fb0b1e02dc8567 - Time: 5298ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.94 kB |
+
+18 unchanged chunks
+
+Build at: 2023-02-17T23:35:31.843Z - Hash: 5e4711311e4f7234 - Time: 5220ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 241.31 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:36:38.079Z - Hash: cd0d41e598f34b48 - Time: 2645ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 242.54 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:38:59.346Z - Hash: 08786e4318ca13b9 - Time: 2733ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names   |  Raw Size
+styles.css, styles.js | styles  | 484.68 kB |
+runtime.js            | runtime |  12.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:40:01.850Z - Hash: 8bc48af035aadaf1 - Time: 4387ms
+
+./src/assets/scss/style.scss - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+SassError: expected "}".
+    ╷
+834 │ }
+    │  ^
+    ╵
+  src/assets/scss/plugins/_tables.scss 834:2  @import
+  src/assets/scss/style.scss 78:9             root stylesheet
+
+./src/assets/scss/style.scss?ngGlobalStyle - Error: Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):
+HookWebpackError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+SassError: expected "}".
+    ╷
+834 │ }
+    │  ^
+    ╵
+  src/assets/scss/plugins/_tables.scss 834:2  @import
+  src/assets/scss/style.scss 78:9             root stylesheet
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names   |  Raw Size
+styles.css, styles.js | styles  | 955.51 kB |
+runtime.js            | runtime |  12.94 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:40:37.184Z - Hash: 2219eafd4adff34c - Time: 7174ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.94 kB |
+
+18 unchanged chunks
+
+Build at: 2023-02-17T23:43:48.460Z - Hash: 2b3e38e11d41ac71 - Time: 6089ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.94 kB |
+
+18 unchanged chunks
+
+Build at: 2023-02-17T23:44:22.369Z - Hash: 2219eafd4adff34c - Time: 5581ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.94 kB |
+
+18 unchanged chunks
+
+Build at: 2023-02-17T23:56:40.907Z - Hash: b76e40e6f39adce5 - Time: 6227ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.94 kB |
+
+18 unchanged chunks
+
+Build at: 2023-02-17T23:58:15.255Z - Hash: 174a1fba46f60912 - Time: 6018ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 237.98 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:59:07.814Z - Hash: 952d82f955a7ff9a - Time: 2245ms
+
+./src/app/immo/estimation/estimation.component.scss?ngResource - Error: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+SassError: expected "}".
+    ╷
+153 │ //   }
+    │       ^
+    ╵
+  src/app/immo/estimation/estimation.component.scss 153:7  root stylesheet
+
+
+
+✖ Failed to compile.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 244.03 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-17T23:59:16.277Z - Hash: ba5c9d4846640ba5 - Time: 2131ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 242.54 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-18T00:00:09.223Z - Hash: 174a1fba46f60912 - Time: 2548ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.94 kB |
+
+18 unchanged chunks
+
+Build at: 2023-02-18T00:00:37.678Z - Hash: b76e40e6f39adce5 - Time: 6467ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.94 kB |
+
+18 unchanged chunks
+
+Build at: 2023-02-18T00:01:20.921Z - Hash: c8e87fe53e13bca6 - Time: 6109ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.94 kB |
+
+18 unchanged chunks
+
+Build at: 2023-02-18T00:02:13.123Z - Hash: 998d45252c8376bc - Time: 6029ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 242.93 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-18T00:08:30.039Z - Hash: a6cf0ce79b741067 - Time: 2639ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 242.91 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-18T00:09:49.515Z - Hash: ed7642c8efe5eb33 - Time: 2636ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 242.93 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-18T00:10:07.840Z - Hash: a6cf0ce79b741067 - Time: 2132ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 242.54 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-18T00:10:28.572Z - Hash: 998d45252c8376bc - Time: 2489ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 242.56 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-18T00:13:02.770Z - Hash: 358da837045058eb - Time: 2486ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 242.56 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-18T00:13:31.115Z - Hash: 40669880241507cb - Time: 2293ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.94 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 242.54 kB |
+
+17 unchanged chunks
+
+Build at: 2023-02-18T00:13:51.516Z - Hash: eae88ec6df7f4b17 - Time: 2093ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.94 kB |
+
+18 unchanged chunks
+
+Build at: 2023-02-18T00:17:58.336Z - Hash: 9cfce4a84a4e7632 - Time: 6181ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+19 unchanged chunks
+
+Build at: 2023-02-18T00:18:15.318Z - Hash: 9cfce4a84a4e7632 - Time: 4330ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+19 unchanged chunks
+
+Build at: 2023-02-18T00:18:26.802Z - Hash: 9cfce4a84a4e7632 - Time: 4097ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.94 kB |
+
+18 unchanged chunks
+
+Build at: 2023-02-18T00:18:31.283Z - Hash: eae88ec6df7f4b17 - Time: 4059ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                                                                                     | Names                               |  Raw Size
+main.js                                                                                                 | main                                | 175.74 kB |
+runtime.js                                                                                              | runtime                             |  12.60 kB |
+
+Lazy Chunk Files                                                                                        | Names                               |  Raw Size
+default-src_app_app_service_ts-src_app_shared_components_components_module_ts-node_modules_ck-efb244.js | immo-info-projet-info-projet-module |   1.74 MB |
+
+7 unchanged chunks
+
+Build at: 2023-02-18T00:21:36.832Z - Hash: 2ebb42d46fbe42b1 - Time: 8694ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.60 kB |
+
+9 unchanged chunks
+
+Build at: 2023-02-18T00:25:33.841Z - Hash: c037b26e73d173eb - Time: 5797ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 243.93 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T00:27:21.906Z - Hash: fdbf3916b01badd8 - Time: 1864ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 244.02 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T00:28:13.444Z - Hash: de04197a44243a77 - Time: 1873ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 244.25 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T00:28:27.117Z - Hash: 621ec40f675cebe1 - Time: 1838ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 242.54 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T00:28:43.633Z - Hash: 6b4e79297acdafc6 - Time: 1751ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.60 kB |
+
+9 unchanged chunks
+
+Build at: 2023-02-18T00:30:03.799Z - Hash: 9c4db5a0c766fcc3 - Time: 5299ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 242.54 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T00:30:38.406Z - Hash: cb5b4e20fc2e120b - Time: 1906ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.60 kB |
+
+9 unchanged chunks
+
+Build at: 2023-02-18T00:31:19.965Z - Hash: c7b0bb04d5774c94 - Time: 5072ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.60 kB |
+
+9 unchanged chunks
+
+Build at: 2023-02-18T00:32:16.047Z - Hash: 5aac8986314df9e2 - Time: 4964ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.60 kB |
+
+9 unchanged chunks
+
+Build at: 2023-02-18T00:32:25.150Z - Hash: 68f0c49e0fee96a6 - Time: 4935ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.60 kB |
+
+9 unchanged chunks
+
+Build at: 2023-02-18T00:33:03.343Z - Hash: 856c083e5dfad1f5 - Time: 4998ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.60 kB |
+
+9 unchanged chunks
+
+Build at: 2023-02-18T00:33:31.886Z - Hash: 09ca2237d8861001 - Time: 5002ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.60 kB |
+
+9 unchanged chunks
+
+Build at: 2023-02-18T00:34:56.001Z - Hash: 54ece5cef2bcbcc1 - Time: 5901ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.60 kB |
+
+9 unchanged chunks
+
+Build at: 2023-02-18T00:35:24.925Z - Hash: e58a3b9c1b223fc1 - Time: 5415ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.60 kB |
+
+9 unchanged chunks
+
+Build at: 2023-02-18T00:35:44.943Z - Hash: c484d73d175c7485 - Time: 5160ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+runtime.js          | runtime | 12.60 kB |
+
+9 unchanged chunks
+
+Build at: 2023-02-18T00:36:05.218Z - Hash: d068da8fbcc1b02c - Time: 5074ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 243.61 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T18:31:05.153Z - Hash: 8250305e3fe03eea - Time: 2629ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 243.61 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T18:33:25.874Z - Hash: 2cbfbf20b3eb9a3e - Time: 2446ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 243.61 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T18:33:57.228Z - Hash: b25ff5912d429121 - Time: 2208ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 243.62 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T18:34:55.173Z - Hash: d39c2cc509283268 - Time: 2689ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 243.65 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T18:49:32.303Z - Hash: e3a503bec816ae4e - Time: 2167ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 243.67 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T18:51:06.900Z - Hash: 7228e8e7371395f7 - Time: 2174ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 243.66 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T18:52:28.927Z - Hash: 5fa376679b68f93f - Time: 2297ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 243.78 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T18:57:16.118Z - Hash: bb78d17ae1c0ebc6 - Time: 2814ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 243.80 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T18:58:24.399Z - Hash: 566e536ef3729804 - Time: 2496ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 243.26 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T19:09:14.505Z - Hash: 3dcdc8effcbb5ab9 - Time: 2094ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 243.92 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T19:11:28.471Z - Hash: 3f439e6c07f2fa1b - Time: 2220ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 243.86 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T19:12:34.590Z - Hash: 076505670c002ed0 - Time: 2190ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 243.86 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T19:12:57.990Z - Hash: a895e21e8b36e00b - Time: 2237ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 243.86 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T19:14:52.366Z - Hash: 89e4adeb6fbd3970 - Time: 2128ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 243.87 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T19:19:33.364Z - Hash: 62ef500f445f19ec - Time: 2231ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 243.87 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T19:20:35.627Z - Hash: d0329d08950b2ef4 - Time: 2188ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 243.60 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T19:26:25.671Z - Hash: 72c116d0ee0dee50 - Time: 2159ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 243.59 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T19:26:51.225Z - Hash: d722da7431b3bed5 - Time: 2112ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 244.52 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T19:38:59.447Z - Hash: 49c7870d06dc06fa - Time: 3031ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 246.40 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T19:45:16.110Z - Hash: 31a4105657509387 - Time: 2233ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 246.41 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T19:47:36.600Z - Hash: 729c887ad3468b3f - Time: 2147ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 246.42 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T19:48:27.787Z - Hash: b854765267bb71db - Time: 2249ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 246.42 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T19:49:10.934Z - Hash: 0f4f94846dc6b608 - Time: 2248ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 244.41 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T19:55:36.759Z - Hash: 3ba4571cddf37df4 - Time: 2188ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 244.39 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T19:55:58.266Z - Hash: 9f92081d9ea86717 - Time: 1958ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+10 unchanged chunks
+
+Build at: 2023-02-18T19:56:01.566Z - Hash: 9f92081d9ea86717 - Time: 1831ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 248.29 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T19:57:18.468Z - Hash: c9e6d87e0d3ee8c0 - Time: 2230ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 248.31 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T19:57:34.139Z - Hash: f118a3abf3e52ff9 - Time: 1908ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 248.92 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T20:01:00.232Z - Hash: 4e1dcadabd372f0d - Time: 2010ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 248.80 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T20:02:36.935Z - Hash: 17cc950fdd952fa0 - Time: 2321ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 248.77 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T20:02:49.308Z - Hash: d4e12be390061468 - Time: 2051ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 248.80 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T20:03:02.004Z - Hash: 17cc950fdd952fa0 - Time: 1931ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 248.92 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T20:03:11.656Z - Hash: 4e1dcadabd372f0d - Time: 1936ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 248.94 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T20:04:51.837Z - Hash: df8685376d2bc5f5 - Time: 2091ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 248.91 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T20:05:07.153Z - Hash: 793a05ae612781f7 - Time: 1927ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+10 unchanged chunks
+
+Build at: 2023-02-18T20:05:10.083Z - Hash: 793a05ae612781f7 - Time: 1767ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 248.88 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T20:05:20.333Z - Hash: 85c9710969ec3d5c - Time: 1860ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 248.93 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T20:06:06.204Z - Hash: 462ee146373b767d - Time: 2195ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 248.93 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T22:08:07.141Z - Hash: 4abce858686e59ae - Time: 2199ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.90 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T22:08:12.837Z - Hash: cfdbe77aea8a7b82 - Time: 2524ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.88 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T22:09:47.481Z - Hash: 324f495daf531438 - Time: 2121ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.85 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T22:10:01.621Z - Hash: e17519e60a36c5c2 - Time: 1998ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.82 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T22:10:17.432Z - Hash: 5eeae2e5ebf54157 - Time: 1886ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.79 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T22:10:46.351Z - Hash: 0a01b9bb384ddc81 - Time: 2303ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.79 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T22:13:57.987Z - Hash: 9d36fd50b659c116 - Time: 2237ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.82 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T22:16:52.427Z - Hash: 7079f9b4ce9e6e77 - Time: 2243ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.79 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T22:17:26.085Z - Hash: f8e8089f9da03feb - Time: 2234ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.80 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T22:18:10.048Z - Hash: f2fba08c3ed3bf8f - Time: 2268ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.78 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T22:18:33.239Z - Hash: 82d5468f92c3369a - Time: 2157ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.81 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T22:18:52.760Z - Hash: a5c98dc7c5dd9f2f - Time: 1916ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.81 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T22:19:34.034Z - Hash: 58607a2d39652f23 - Time: 2323ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.63 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T22:22:32.126Z - Hash: 8d3aced88f08fec2 - Time: 2218ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.50 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T22:24:27.955Z - Hash: e770bcdf1823226b - Time: 2240ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.48 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T22:24:48.971Z - Hash: 5fc1237c9ab65679 - Time: 2212ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.54 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T22:27:06.832Z - Hash: 65dcfc6e5b3bb340 - Time: 2338ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.60 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T22:28:31.223Z - Hash: 481b650283fbf3c7 - Time: 2244ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.60 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T22:28:53.610Z - Hash: 8e92da84e215fd84 - Time: 2206ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.60 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T22:29:18.575Z - Hash: a9b26fa370c390cc - Time: 2194ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.60 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T22:29:43.768Z - Hash: d3821b8e82d09e71 - Time: 2046ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.60 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T22:29:54.197Z - Hash: 8e92da84e215fd84 - Time: 1894ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.60 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T22:30:14.064Z - Hash: 473c05c9d2d99a86 - Time: 2038ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.59 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T22:31:54.656Z - Hash: ab8feccc87af8656 - Time: 2308ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.59 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T22:32:31.985Z - Hash: c714f77534efa744 - Time: 2176ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.61 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T22:39:37.501Z - Hash: 0bdd149e69e4fca1 - Time: 3028ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.60 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T22:41:19.814Z - Hash: 361ebaab7b59fc13 - Time: 2142ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.60 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T22:55:30.906Z - Hash: 2242620dfd9262ea - Time: 2185ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.61 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T23:02:02.459Z - Hash: 392e05249638d136 - Time: 2275ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.60 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T23:02:42.351Z - Hash: 2242620dfd9262ea - Time: 2209ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.65 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T23:03:48.818Z - Hash: 8156b5dba12f9af7 - Time: 2957ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.67 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T23:04:40.040Z - Hash: 38de961003dcf17b - Time: 2236ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.66 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T23:06:56.063Z - Hash: 0e0a66b578d2d2fa - Time: 2163ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.64 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T23:07:29.027Z - Hash: 2c634f9587b69891 - Time: 2033ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.65 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T23:13:30.189Z - Hash: 1d7a76d2990a5e6f - Time: 2369ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.99 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T23:20:34.659Z - Hash: a15f6884ee52c1df - Time: 2969ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.01 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T23:21:36.750Z - Hash: b3956d1e2ba4cd44 - Time: 2283ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+10 unchanged chunks
+
+Build at: 2023-02-18T23:21:57.563Z - Hash: b3956d1e2ba4cd44 - Time: 1963ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.01 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T23:22:38.925Z - Hash: bc584be7a7058eb2 - Time: 2197ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.01 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T23:23:34.927Z - Hash: 3a3eb7775a1ef999 - Time: 2821ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.01 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T23:23:47.595Z - Hash: 026db1e2a226aa75 - Time: 2040ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.97 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T23:27:45.911Z - Hash: ab2e708a3a4420d2 - Time: 2214ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.00 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T23:30:18.967Z - Hash: 3603e449dced55e1 - Time: 2317ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.06 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T23:36:44.131Z - Hash: 9877421045bf21c0 - Time: 2959ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.06 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T23:41:34.524Z - Hash: 88965572dcab4f31 - Time: 2607ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.02 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T23:42:45.704Z - Hash: a0d712664fd9ecfa - Time: 3013ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.07 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T23:44:00.801Z - Hash: 2875874254ae9cb4 - Time: 2292ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.07 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T23:45:10.688Z - Hash: 7fa1c1fd4e374075 - Time: 2961ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.02 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T23:48:38.883Z - Hash: 45f551229a24fe54 - Time: 2058ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.03 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-18T23:53:06.154Z - Hash: 18bd36855b5e1a8d - Time: 2210ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.67 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T00:06:37.849Z - Hash: 3a06c7bf6afc4076 - Time: 2870ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.66 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T00:07:07.832Z - Hash: 7a9484bea08d233b - Time: 2006ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.98 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T00:20:09.853Z - Hash: 8f846a639f436467 - Time: 2193ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 249.98 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T00:21:01.561Z - Hash: 66bdbaebed104913 - Time: 2297ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.25 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T00:26:06.437Z - Hash: 516c00e4d6a3ff8d - Time: 2199ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.25 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T00:27:43.553Z - Hash: cc10945e2290fd3d - Time: 2344ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.25 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T00:27:58.049Z - Hash: 86236eb3d1e2db0b - Time: 1973ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.25 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T00:28:30.140Z - Hash: c9041b735d704fc7 - Time: 2279ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.25 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T00:28:43.461Z - Hash: 86236eb3d1e2db0b - Time: 2059ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.31 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T00:29:48.779Z - Hash: 13bb5e52c14be4c4 - Time: 2096ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.27 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T00:30:26.168Z - Hash: e9399be8eb2ce344 - Time: 2296ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.27 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T00:31:26.296Z - Hash: fe59f5f222f3af5f - Time: 2299ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.12 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T00:33:38.204Z - Hash: 6bdeb1a137409454 - Time: 2246ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.15 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T00:35:31.011Z - Hash: f31b69f1d42aa399 - Time: 2332ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.13 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T00:37:03.249Z - Hash: a48018d1263ffbda - Time: 2358ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+10 unchanged chunks
+
+Build at: 2023-02-19T00:37:20.263Z - Hash: a48018d1263ffbda - Time: 1977ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.25 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T00:37:54.242Z - Hash: cc10945e2290fd3d - Time: 2240ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.29 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T00:44:54.280Z - Hash: fe98402e5efe3f0a - Time: 2344ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.29 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T00:45:22.310Z - Hash: c28105cf0fc054f2 - Time: 2190ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+10 unchanged chunks
+
+Build at: 2023-02-19T00:45:41.624Z - Hash: c28105cf0fc054f2 - Time: 1911ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.25 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T00:46:03.699Z - Hash: cc10945e2290fd3d - Time: 2634ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.25 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T00:46:22.003Z - Hash: 86236eb3d1e2db0b - Time: 2072ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.38 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T00:53:08.403Z - Hash: 5010be882eea33b4 - Time: 2839ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.25 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T00:53:37.505Z - Hash: 96b598ec1df66cbc - Time: 2921ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.25 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T00:55:23.729Z - Hash: 4781332647db5d81 - Time: 2241ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.25 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T00:57:55.233Z - Hash: 44e90c15e7def7df - Time: 2326ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.32 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T01:04:29.230Z - Hash: a9eb6ad65ea80075 - Time: 3005ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.38 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T01:06:01.913Z - Hash: 054f72bbb2f82134 - Time: 2148ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.38 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T01:07:05.472Z - Hash: 231e80e0ffed2e09 - Time: 3006ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.38 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T01:09:43.260Z - Hash: 8d948edca546ef05 - Time: 2524ms
+
+✔ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                             | Names                             |  Raw Size
+runtime.js                                      | runtime                           |  12.60 kB |
+
+Lazy Chunk Files                                | Names                             |  Raw Size
+src_app_immo_estimation_estimation_module_ts.js | immo-estimation-estimation-module | 250.79 kB |
+
+8 unchanged chunks
+
+Build at: 2023-02-19T01:13:58.097Z - Hash: 4353742447454e3c - Time: 2459ms
+
+✔ Compiled successfully.

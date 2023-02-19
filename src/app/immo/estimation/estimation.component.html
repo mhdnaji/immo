@@ -23,79 +23,141 @@
     </div>
 
     <div class="row">
-      <div class="card">
+
+      <div class="card col-xs-12 col-sm-12 col-md-12 col-lg-3 ">
         <h4>Notre proposition:</h4>
         <mat-label>Duplex 4P Moyen standing avec une surface utile de 100 m2</mat-label>
         <mat-label>Garage 2 voiture </mat-label>
-
-        <!-- Ville:{{dataService.infosUser.ville}}
-              Commune        :{{dataService.infosUser.commune        }},&nbsp;
-              Quartier       :{{dataService.infosUser.quartier       }},&nbsp;
-              Zone           :{{dataService.infosUser.zone           }},&nbsp;
-              TitreDeProp    :{{dataService.infosUser.titreDeProp    }},&nbsp;
-              DateObtention  :{{dataService.infosUser.dateObtention  }},&nbsp;
-              Surface        :{{dataService.infosUser.surface        }},&nbsp;
-              Topologie      :{{dataService.infosUser.topologie      }},&nbsp;
-              Dim            :,&nbsp;
-              TypeDeBien     :{{dataService.infosUser.typeDeBien     }},&nbsp;
-              Nombre pieces  :{{dataService.infosUser.nbPieces       }},&nbsp;
-              Personalisation: -->
       </div>
-    </div>
-    <div class="row">
-      <div class="card col-xs-12 col-sm-12 col-md-12 col-lg-6">
-        <h4>Estimation du budget de construction</h4>
-        <!-- <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
 
-          <ng-container matColumnDef="designation">
-            <th mat-header-cell *matHeaderCellDef>Designation </th>
-            <td mat-cell *matCellDef="let element"> {{element.designation}} </td>
-          </ng-container>
-
-          <ng-container matColumnDef="min">
-            <th mat-header-cell *matHeaderCellDef> Min </th>
-            <td mat-cell *matCellDef="let element"> {{element.min}} </td>
-          </ng-container>
-
-          <ng-container matColumnDef="estimation">
-            <th mat-header-cell *matHeaderCellDef> Budget estimé </th>
-            <td mat-cell *matCellDef="let element"> {{element.estimation}} </td>
-          </ng-container>
-
-          <ng-container matColumnDef="max">
-            <th mat-header-cell *matHeaderCellDef> Max </th>
-            <td mat-cell *matCellDef="let element"> {{element.max}} </td>
-          </ng-container>
-
-          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-          <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
-        </table> -->
-        <div>
-          <ngx-datatable [rows]="rows" [columns]="columns" #mydatatable class="material" [headerHeight]="50"
-            [scrollbarH]="true" [scrollbarV]="true" [rows]="rows" [externalPaging]="false">
-            <ngx-datatable-column name="designation" prop="designation" [frozenLeft]="true" [maxWidth]="400">
-              <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex" let-value="value" let-row="row">
-                <div style="text-align: left ; " > {{ value }}</div>
-              </ng-template>
-            </ngx-datatable-column>
-            <ngx-datatable-column name="min" prop="min" [maxWidth]="100">
-              <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex" let-value="value" let-row="row"  >
-                <div style="text-align: right;" > {{ value |thousandSeparator }}</div>
-            </ng-template>
-          </ngx-datatable-column>
-            <ngx-datatable-column name="Budget estimé" prop="estimation" [maxWidth]="100">
-              <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex" let-value="value" let-row="row">
-                <div style="text-align: right;"> {{ value |thousandSeparator }}</div>
-            </ng-template>
-          </ngx-datatable-column>
-            <ngx-datatable-column name="max" prop="max" [frozenRight]="true" [maxWidth]="100">
-              <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex" let-value="value" let-row="row">
-                  <div style="text-align: right;"> {{ value |thousandSeparator }}</div>
-              </ng-template>
-            </ngx-datatable-column>
-          </ngx-datatable>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5">
+        <div class="row">
+          <div class="card">
+            <h4>Estimation du budget de construction</h4>
+            <table class="custom-table">
+              <thead>
+                <tr>
+                  <td>Min</td>
+                  <td>Budget estimé</td>
+                  <td>Max</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>{{estimation_min|thousandSeparator}}</td>
+                  <td>{{estimation|thousandSeparator}}</td>
+                  <td>{{estimation_min|thousandSeparator}}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
+        <div class="row">
+          <div class="card">
+            <ngx-datatable [rows]="rows" [columns]="columns" #mydatatable class="material" [headerHeight]="50"
+              [scrollbarH]="true" [scrollbarV]="true" [rows]="rows" [externalPaging]="false">
+              <ngx-datatable-column name="designation" prop="designation" [frozenLeft]="true" [width]="250">
+                <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex" let-value="value" let-row="row">
+                  <div style="text-align: left ; "> {{ value }}</div>
+                </ng-template>
+              </ngx-datatable-column>
+              <ngx-datatable-column name="min" prop="min" [width]="120">
+                <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex" let-value="value" let-row="row">
+                  <div style="text-align: right;"> {{ value |thousandSeparator }}</div>
+                </ng-template>
+              </ngx-datatable-column>
+              <ngx-datatable-column name="Budget estimé" prop="estimation" [width]="120">
+                <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex" let-value="value" let-row="row">
+                  <div style="text-align: right;"> {{ value |thousandSeparator }}</div>
+                </ng-template>
+              </ngx-datatable-column>
+              <ngx-datatable-column name="max" prop="max" [width]="120">
+                <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex" let-value="value" let-row="row">
+                  <div style="text-align: right;"> {{ value |thousandSeparator }}</div>
+                </ng-template>
+              </ngx-datatable-column>
+            </ngx-datatable>
+          </div>
+        </div>
+      </div>
 
+      <div class="card col-xs-12 col-sm-12 col-md-12 col-lg-4 ">
+        <h4>Personalisation</h4>
+
+        <div class="row">
+          <div class="m-l-10">
+            <ngx-datatable #mydatatable class="material" [headerHeight]="50" [limit]="5" [scrollbarH]="true"
+              [scrollbarV]="true" [rows]="rowsPieces" [externalPaging]="false" style="height: 500px;">
+              <ngx-datatable-column name="piece">
+                <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex" let-value="value" let-row="row">
+                  <span title="Clicker pour modifier" (click)="editing[rowIndex + '-piece'] = true"
+                    *ngIf="!editing[rowIndex + '-piece']">
+                    {{ value }}
+                  </span>
+                  <select *ngIf="editing[rowIndex + '-piece']" (blur)="editing[rowIndex + '-piece'] = true"
+                    (change)="updateValue($event, 'piece', rowIndex)" [value]="value">
+                    <option value="cuisine">Cuisine</option>
+                    <option value="salon">Salon</option>
+                    <option value="chambre">Chambre</option>
+                    <option value="salleDeBain">Salle de Bain</option>
+                  </select>
+                </ng-template>
+              </ngx-datatable-column>
+              <ngx-datatable-column name="Surface">
+                <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex" let-value="value" let-row="row">
+                  <span title="Clicker pour modifier"  (click)="editing[rowIndex + '-surface'] = true;onClickSurface($Event)"
+                    *ngIf="!editing[rowIndex + '-surface']">
+                    {{ value }}
+                  </span>
+                  <input #surfaceInput type="number" min="0" autofocus (click)="onClickSurface($Event)" (blur)="updateValue($event, 'surface', rowIndex)"
+                    *ngIf="editing[rowIndex + '-surface']" [value]="value"  />
+                </ng-template>
+              </ngx-datatable-column>
+              <ngx-datatable-column name="Nombre">
+                <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex" let-value="value" let-row="row">
+                  <span title="Clicker pour modifier" (click)="editing[rowIndex + '-nombre'] = true"
+                    *ngIf="!editing[rowIndex + '-nombre']">
+                    {{ value }}
+                  </span>
+                  <input autofocus (blur)="updateValue($event, 'nombre', rowIndex)"
+                    *ngIf="editing[rowIndex + '-nombre']" type="number" min="0" [value]="value" />
+                </ng-template>
+              </ngx-datatable-column>
+              <ngx-datatable-column name="Actions" sortable="false" [width]="120">
+                <ng-template let-value="value" let-row="row" let-rowIndex="rowIndex" ngx-datatable-cell-template>
+                  <span>
+
+                    <button class="btn tblActnBtn h-auto" (click)='deleteRow(row)'>
+                      <i class="material-icons">delete</i>
+                    </button>
+                  </span>
+                </ng-template>
+              </ngx-datatable-column>
+            </ngx-datatable>
+          </div>
+        </div>
+        <!-- 
+        <div class="row">
+          <h4>Ajouter une pièce:</h4>
+          <button color="primary" [disabled]="!pieceGroup.valid" (click)="valider()">
+            <mat-icon class="col-white">add</mat-icon>
+          </button>
+        </div> -->
+        <div class="row">
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <h5>Ajouter une pièce:</h5>
+          </div>
+          <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+            <button mat-mini-fab color="primary" (click)='personaliser()'>
+              <mat-icon class="col-white">add</mat-icon>
+            </button>
+
+            <!-- <button mat-icon-button (click)="$event.stopPropagation()" (click)="personaliser()"
+            class="tbl-action-btn">
+            <app-feather-icons [icon]="'edit'" [class]="'tbl-fav-edit'"></app-feather-icons>
+          </button> -->
+          </div>
+        </div>
       </div>
     </div>
   </div>

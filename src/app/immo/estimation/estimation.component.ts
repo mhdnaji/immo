@@ -2,6 +2,8 @@ import { AppService, DataService } from '../../app.service';
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common'
 import {DataSource} from '@angular/cdk/collections';
+import { PersonaliserComponent } from './personaliser/personaliser.component';
+import { Option } from 'src/app/models';
 import {
   UntypedFormBuilder,
   UntypedFormGroup,
@@ -48,21 +50,34 @@ const ELEMENT_DATA: Estimation[] = [
 export class EstimationComponent implements OnInit {
   displayedColumns: string[] = ['designation', 'min', 'estimation', 'max'];
   dataSource = ELEMENT_DATA;
+  pieceGroup: UntypedFormGroup;
 
   infoUser:any
   constructor(public appService: AppService,
     public dataService: DataService,
     private fb: UntypedFormBuilder,
+    public dialog: MatDialog,
   ) {
     
+      this.pieceGroup = this.fb.group({
+      pieceControl: ['', [Validators.required]],
+      surfaceControl: ['', [Validators.required]],
+      nombreControl: ['', [Validators.required]],
+
+});
+
 }
+
   ngOnInit(): void {
    
 
   }
 
 
- 
+  estimation_min= 32640000;
+  estimation=35004000;
+  estimation_max=37440000;
+  
   
   columns = [
     { prop: 'designation' },
@@ -72,7 +87,6 @@ export class EstimationComponent implements OnInit {
   ];
 
   rows = [
-    {designation:'Total',               min: 32640000,  estimation:35004000,max:37440000},
     {designation:'Terrassement',        min:228480,     estimation:245280,  max:262080},
     {designation:'Maçonnerie grosœuvre',min:13056000,   estimation:14016000,max:14976000},
     {designation:'Charpente couverture',min:3590400,    estimation:3854400, max:4118400},
@@ -90,10 +104,97 @@ export class EstimationComponent implements OnInit {
   ];
 
 
+  editing = {};
+  columnsPieces = [
+    { prop: 'piece' },
+    { prop: 'surface' },
+    { prop: 'nombre' }];
+
+  _rowsPieces = [
+    // { id:1 , piece: 'Cuisine', surface: '10', nombre: 1 },    
+    // { id:2 , piece: 'Salle de Bain', surface: '10', nombre: 1 },    
+    // { id:3 , piece: 'Salon', surface: '25', nombre: 1 },    
+    // { id:4 , piece: 'Chambre', surface: '15', nombre: 3 },    
+  ];
+
+  rowsPieces = [
+    { id:1 , piece: 'Cuisine', surface: '10', nombre: 1 },    
+    { id:2 , piece: 'Salle de Bain', surface: '10', nombre: 1 },    
+    { id:3 , piece: 'Salon', surface: '25', nombre: 1 },    
+    { id:4 , piece: 'Chambre', surface: '15', nombre: 3 },    
+  ];
+
+  updateValue(event, cell, rowIndex) {
+    console.log('inline editing rowIndex', rowIndex);
+    this.editing[rowIndex + '-' + cell] = false;
+    this.rowsPieces[rowIndex][cell] = event.target.value;
+    this.rowsPieces = [...this.rowsPieces];
+    console.log('UPDATED!', this.rows[rowIndex][cell]);
+  }
+
+  onClickSurface(event:any){
+    console.log('onClickSurface:', event);
+  }
+  forceFocus(event: any) {
+    event.target.focus();
+  }
+
+  
+  
+  
+  deleteRow(row) {
+    const index = this.rowsPieces.indexOf(row);
+    this.rowsPieces.splice(index, 1);
+    this.rowsPieces = [...this.rowsPieces];
+  }
+
+  pieces: Option[] = [
+    { "nom": 'cuisine', "label": 'Cuisine' },
+    { "nom": 'salon', "label": "salon" },
+    { "nom": "chambre", "label": 'Chambre' },
+    { "nom": "salleDeBain ACP", "label": 'Salle de bain' },
+  ];
+
+
+  valider() {
+    let piece = this.pieceGroup.value.pieceControl;
+    let surface: number = this.pieceGroup.value.surfaceControl;
+    let nombre: number = this.pieceGroup.value.nombreControl;
+
+    console.log("pieceGroup:", this.pieceGroup);
+    let result = {
+      piece: piece,
+      surface: surface,
+      nombre: nombre
+    };
+    console.log("result:", result);
+
+  }
+  personaliser() {
+
+    const dialogRef = this.dialog.open(PersonaliserComponent, {
+
+      data: { title: 'Personalisation', content: 'Dialog Content' }
+    });
+    dialogRef.afterClosed().subscribe(result => {
+      console.log("result:", result);
+      this.rowsPieces.push({ id: 10, piece: result.piece, surface: result.surface, nombre: result.nombre });
+      this.rowsPieces = [...this.rowsPieces]
+    }
+
+    );
+    console.log("rows:", this.rows);
+
+  }
+
+
+
 }
 
 
+
 import { Pipe, PipeTransform } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
 
 @Pipe({name: 'thousandSeparator'})
 export class ThousandSeparatorPipe implements PipeTransform {

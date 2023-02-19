@@ -40,12 +40,12 @@
                                 </app-titre>
                             </mat-step>
                             <mat-step [stepControl]="descriptionGroup">
-                                <ng-template matStepLabel>Description</ng-template>
+                                <ng-template matStepLabel>Terrain</ng-template>
                                 <app-description (moveStep)="moveStep($event)">
                                 </app-description>
                             </mat-step>
                             <mat-step [stepControl]="typeGroup">
-                                <ng-template matStepLabel>Type</ng-template>
+                                <ng-template matStepLabel>Votre projet</ng-template>
                                 <app-type (moveStep)="moveStep($event)">
                                 </app-type>
                             </mat-step>

@@ -1,6 +1,4 @@
-<form class="register-form m-4" [formGroup]="typeGroup" >
-    <div class="card">
-        <div class="body">
+<form class="register-form m-4" [formGroup]="typeGroup">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
@@ -12,38 +10,73 @@
                                 <div class="example-container">
                                     <div class="row">
                                         <div class="col">
-                                            <mat-form-field>
+                                            <mat-form-field appearance="outline">
                                                 <mat-label>Choisir un type de maison</mat-label>
                                                 <mat-select [(value)]="selectedImage"
-                                                    formControlName='typeDeBienControl'
-                                                    (selectionChange)="onSelectionChange($event)">
+                                                    formControlName='typeDeBienControl'>
+                                                    <!-- (selectionChange)="onSelectionChange($event)"
+                                                    > -->
                                                     <mat-option *ngFor="let image of typeDeMaisons" [value]="image.nom">
                                                         {{ image.nom }}
                                                     </mat-option>
                                                 </mat-select>
+                                                <mat-error *ngIf="typeGroup.get('typeDeBienControl').hasError('required')">
+                                                    Choisir la topologie du terrain </mat-error>
+                                                <mat-hint>{{typeGroup.get('typeDeBienControl').value?.sound}}</mat-hint>
+
                                             </mat-form-field>
                                         </div>
-                                        <div class="col">
+                                        <!-- <div class="col">
                                             <div *ngIf="selectedImage">
                                                 <img [src]="selectedImage.image" [alt]="selectedImage.nom">
-                                                <!-- <h3>{{ selectedImage.title }}</h3> -->
+                                                
                                             </div>
+                                        </div> -->
+                                        <div class="col">
+                                            <mat-form-field appearance="outline">
+                                                <mat-label>Choisir un standing</mat-label>
+                                                <mat-select formControlName="standingControl" required>
+                                                    <mat-option *ngFor="let standing of standings" [value]="standing.nom">
+                                                        {{ standing.label }}
+                                                    </mat-option>
+                                                </mat-select>
+                                                <mat-error *ngIf="typeGroup.get('standingControl').hasError('required')">
+                                                    Choisir la topologie du terrain </mat-error>
+                                                <mat-hint>{{typeGroup.get('standingControl').value?.sound}}</mat-hint>
+
+
+                                            </mat-form-field>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-6">
+                                    <div class="col">
                                         <mat-form-field appearance="outline">
                                             <mat-label>Nombre de pièces</mat-label>
                                             <input matInput type="number" min="0" placeholder="0"
                                                 formControlName='nbPiecesControl' (blur)="updateSurface()">
                                         </mat-form-field>
                                     </div>
+                                    <div class="col">
+                                        <mat-form-field appearance="outline">
+                                            <mat-label>Garage</mat-label>
+                                            <mat-select formControlName="garageControl" required>
+                                                <mat-option *ngFor="let garage of garages" [value]="garage.nom">
+                                                    {{ garage.label }}
+                                                </mat-option>
+                                            </mat-select>
+                                            <mat-error *ngIf="typeGroup.get('garageControl').hasError('required')">
+                                                Choisir la topologie du terrain </mat-error>
+                                            <mat-hint>{{typeGroup.get('garageControl').value?.sound}}</mat-hint>
+
+                                        </mat-form-field>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <!-- <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                         <div class="card">
                             <div class="personalisationHeader">
                                 <ul class="header-buttons-left ms-0 mb-0">
@@ -117,9 +150,7 @@
                                             <ng-template let-value="value" let-row="row" let-rowIndex="rowIndex"
                                                 ngx-datatable-cell-template>
                                                 <span>
-                                                    <!-- <button class="btn tblActnBtn h-auto" (click)='editRow(row, rowIndex, editRecord)'>
-                                                  <i class="material-icons">mode_edit</i>
-                                                </button> -->
+                                             
                                                     <button class="btn tblActnBtn h-auto" (click)='deleteRow(row)'>
                                                         <i class="material-icons">delete</i>
                                                     </button>
@@ -130,17 +161,12 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
-        </div>
-
-
-    </div>
 
     <div>
         <button mat-button color="warn" class="msr-2" (click)="onRetour()">retour</button>
-        <button mat-raised-button color="primary" [disabled]="!typeGroup.valid"  (click)="onSubmit()"
-            >Valider</button>
+        <button mat-raised-button color="primary" [disabled]="!typeGroup.valid" (click)="onSubmit()">Valider</button>
     </div>
 </form>

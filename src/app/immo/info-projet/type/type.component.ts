@@ -1,5 +1,6 @@
 import { AppService, DataService } from '../../../app.service';
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Option } from 'src/app/models';
 import {
   UntypedFormBuilder,
   UntypedFormGroup,
@@ -31,7 +32,7 @@ export class TypeComponent implements OnInit {
 
   currentIndex: any = -1;
   showFlag: any = false;
-  typeDeMaisons: Array<Image> = [
+  typeDeMaisons: Image[] = [
     {
       image: 'assets/icons/maison.svg',
       thumbImage: 'assets/icons/maison.svg',
@@ -54,6 +55,22 @@ export class TypeComponent implements OnInit {
     },
 
   ]
+
+  standings:Option[]=[
+    {"nom":'socialStanding',"label":'Social' },
+    {"nom":'economiqueStanding',"label":"Economique" },
+    {"nom":"moyenStanding","label":'Moyen standing' },
+    {"nom":"hautStanding","label":'Haut' },
+  ];
+
+  garages:Option[]=[
+    {"nom":'aucun',"label":'aucun' },
+    {"nom":'1Vouture1',"label":"1 vouture" },
+    {"nom":"2Voitures","label":'2 voitures' },
+  ];
+
+
+
   ColumnMode = ColumnMode;
   editing = {};
   columns = [
@@ -104,12 +121,15 @@ export class TypeComponent implements OnInit {
     this.typeGroup = this.fb.group({
       typeDeBienControl: ['', [Validators.required]],
       nbPiecesControl: ['', [Validators.required]],
+      standingControl: ['', [Validators.required]],
+      garageControl: ['', [Validators.required]],
 
     });
 
 
   }
 
+  
   ngOnInit(): void {
 
     this.initControlValues();
@@ -139,6 +159,8 @@ export class TypeComponent implements OnInit {
 
     this.dataService.infosUser.typeDeBien = this.typeGroup.value.typeDeBienControl;
     this.dataService.infosUser.nbPieces = this.typeGroup.value.nbPiecesControl;
+    this.dataService.infosUser.standing = this.typeGroup.value.standingControl;
+    this.dataService.infosUser.garage = this.typeGroup.value.garageControl;
     this.dataService.infosUser.personalisation = this.rows;
 
     this.dataService.storeInfosUser();
@@ -154,6 +176,8 @@ export class TypeComponent implements OnInit {
 
     this.typeGroup.get('typeDeBienControl').setValue(this.dataService.infosUser.typeDeBien);
     this.typeGroup.get('nbPiecesControl').setValue(this.dataService.infosUser.nbPieces);
+    this.typeGroup.get('standingControl').setValue(this.dataService.infosUser.standing);
+    this.typeGroup.get('garageControl').setValue(this.dataService.infosUser.garage);
     //this.rows = this.dataService.infosUser.personalisation;
     // console.log("TypeComponent this.typeGroup:", this.typeGroup)
     this.rows=this.dataService.infosUser.personalisation;

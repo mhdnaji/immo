@@ -41,6 +41,9 @@ import { ComponentsModule } from '../../shared/components/components.module';
 import { EstimationComponent,ThousandSeparatorPipe } from './estimation.component';
 import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 import { MatTableModule } from "@angular/material/table"
+
+import { PersonaliserComponent } from './personaliser/personaliser.component';
+
 @NgModule({
   declarations: [
     // EditorsComponent,
@@ -51,6 +54,7 @@ import { MatTableModule } from "@angular/material/table"
     // AdvanceControlsComponent,
     EstimationComponent, 
     ThousandSeparatorPipe,
+    PersonaliserComponent,
   ],
   imports: [
     NgxDatatableModule,

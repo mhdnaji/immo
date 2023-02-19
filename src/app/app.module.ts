@@ -27,6 +27,9 @@ import { ClickOutsideModule } from 'ng-click-outside';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { NgScrollbarModule } from 'ngx-scrollbar';
 import { LoadingBarRouterModule } from '@ngx-loading-bar/router';
+import  { WidgetModule} from './widget/widget.module'
+import {DashboardModule} from './dashboard/dashboard.module'
+import {TablesModule} from './tables/tables.module'
 //import { BienComponent } from './bien/bien.component';
 
 @NgModule({
