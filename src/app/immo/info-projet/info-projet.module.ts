@@ -37,7 +37,7 @@ import { OwlDateTimeModule, OwlNativeDateTimeModule } from 'ng-pick-datetime';
 import { SharedModule } from '../../shared/shared.module';
 import { ComponentsModule } from '../../shared/components/components.module';
 import { InfoProjetComponent } from './info-projet.component';
-import { LocalisationComponent } from './localisation/localisation.component';
+import { FilterByCommune, FilterByVille, LocalisationComponent } from './localisation/localisation.component';
 import { TitreComponent } from './titre/titre.component';
 import { DescriptionComponent } from './description/description.component';
 import { TypeComponent } from './type/type.component'; 
@@ -48,14 +48,14 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [
-    
-  
     InfoProjetComponent,
-            LocalisationComponent,
-            TitreComponent,
-            DescriptionComponent,
-            TypeComponent,
-            TypeDetailComponent
+    LocalisationComponent,
+    TitreComponent,
+    DescriptionComponent,
+    TypeComponent,
+    TypeDetailComponent,
+    FilterByVille,
+    FilterByCommune,
   ],
   imports: [
     CommonModule,

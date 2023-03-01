@@ -24,23 +24,6 @@ export interface Estimation {
   max: number;
 }
 
-const ELEMENT_DATA: Estimation[] = [
-  {designation:'Total',               min: 32640000,  estimation:35004000,max:37440000},
-  {designation:'Terrassement',        min:228480,     estimation:245280,  max:262080},
-  {designation:'Maçonnerie-grosœuvre',min:13056000,   estimation:14016000,max:14976000},
-  {designation:'Charpente-couverture',min:3590400,    estimation:3854400, max:4118400},
-  {designation:'Faux-plafond',        min:1680960,    estimation:1804560, max:1928160},
-  {designation:'Etanchéité',          min:261120,     estimation:280320,  max:299520},
-  {designation:'Plomberie-sanitaire-assainissement',min:3264000,estimation:3504000,max:3744000},
-  {designation:'Menuiserie-quincaillerie',min:3916800,estimation:4204800, max:4492800},
-  {designation:'Menuiseriealuminium', min:0,estimation:0,max:0},
-  {designation:'Férronnerie',         min:930240,     estimation:998640,  max:1067040},
-  {designation:'Carrelage-revêtement',min:1632000,    estimation:1752000, max:1872000},
-  {designation:'Electricité',         min:2284800,    estimation:2452800, max:2620800},
-  {designation:'Peinture',            min:1795200,    estimation:1927200, max:2059200},
-  {designation:'Abord-jardin',        min:0,          estimation:0,       max:0},
-];
-
 
 @Component({
   selector: 'app-estimation',
@@ -49,7 +32,6 @@ const ELEMENT_DATA: Estimation[] = [
 })
 export class EstimationComponent implements OnInit {
   displayedColumns: string[] = ['designation', 'min', 'estimation', 'max'];
-  dataSource = ELEMENT_DATA;
   pieceGroup: UntypedFormGroup;
 
   infoUser:any
@@ -73,11 +55,7 @@ export class EstimationComponent implements OnInit {
 
   }
 
-
-  estimation_min= 32640000;
-  estimation=35004000;
-  estimation_max=37440000;
-  
+  estimation={designation:'Total',        min:32640000,     estimation:35004000,  max:37440000};
   
   columns = [
     { prop: 'designation' },
@@ -86,7 +64,7 @@ export class EstimationComponent implements OnInit {
     { prop: 'max' }
   ];
 
-  rows = [
+  rowsEstimation = [
     {designation:'Terrassement',        min:228480,     estimation:245280,  max:262080},
     {designation:'Maçonnerie grosœuvre',min:13056000,   estimation:14016000,max:14976000},
     {designation:'Charpente couverture',min:3590400,    estimation:3854400, max:4118400},
@@ -110,11 +88,12 @@ export class EstimationComponent implements OnInit {
     { prop: 'surface' },
     { prop: 'nombre' }];
 
-  _rowsPieces = [
-    // { id:1 , piece: 'Cuisine', surface: '10', nombre: 1 },    
-    // { id:2 , piece: 'Salle de Bain', surface: '10', nombre: 1 },    
-    // { id:3 , piece: 'Salon', surface: '25', nombre: 1 },    
-    // { id:4 , piece: 'Chambre', surface: '15', nombre: 3 },    
+
+  rowsPiecesCalcule = [
+    { id:1 , piece: 'Cuisine', surface: '10', nombre: 1 },    
+    { id:2 , piece: 'Salle de Bain', surface: '10', nombre: 1 },    
+    { id:3 , piece: 'Salon', surface: '25', nombre: 1 },    
+    { id:4 , piece: 'Chambre', surface: '15', nombre: 3 },    
   ];
 
   rowsPieces = [
@@ -129,7 +108,7 @@ export class EstimationComponent implements OnInit {
     this.editing[rowIndex + '-' + cell] = false;
     this.rowsPieces[rowIndex][cell] = event.target.value;
     this.rowsPieces = [...this.rowsPieces];
-    console.log('UPDATED!', this.rows[rowIndex][cell]);
+    console.log('UPDATED!', this.rowsEstimation[rowIndex][cell]);
   }
 
   onClickSurface(event:any){
@@ -183,11 +162,32 @@ export class EstimationComponent implements OnInit {
     }
 
     );
-    console.log("rows:", this.rows);
+    console.log("rows:", this.rowsEstimation);
 
   }
 
+  storeInfosUser() {
 
+
+    this.dataService.infosUser.estimation = this.estimation;
+    this.dataService.infosUser.detailEstimation = this.rowsEstimation;
+    this.dataService.infosUser.personalisation = this.rowsPieces;
+
+    this.dataService.storeInfosUser();
+
+    console.log("TypeComponent this.dataService.infosUser:", this.dataService.infosUser)
+  }
+
+
+
+  initControlValues() {
+
+    //this.rows = this.dataService.infosUser.personalisation;
+    // console.log("TypeComponent this.typeGroup:", this.typeGroup)
+    this.rowsPieces=this.dataService.infosUser.personalisation;
+    console.log("initControlValues TypeComponent this.dataService.infosUser:", this.dataService.infosUser)
+
+  }
 
 }
 

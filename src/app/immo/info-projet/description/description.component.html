@@ -22,8 +22,8 @@
                             <mat-form-field>
                                 <mat-label>Topologie</mat-label>
                                 <mat-select formControlName="topoPropControl" required>
-                                    <mat-option *ngFor="let topoProp of toposProp  " [value]="topoProp.nom">
-                                        {{ topoProp.label }}
+                                    <mat-option *ngFor="let topoProp of dataService.refs.topologies  " [value]="topoProp.id">
+                                        {{ topoProp.topologie }}
                                     </mat-option>
                                 </mat-select>
                                 <mat-error *ngIf="descriptionGroup.get('topoPropControl').hasError('required')">
@@ -38,7 +38,7 @@
                         <div class="col-sm-6">
                             <mat-form-field appearance="outline">
                                 <mat-label>Périmètre</mat-label>
-                                <input matInput placeholder="exemple: 10mX20mX15mX9m" formControlName='dim1Control'>
+                                <input matInput placeholder="exemple: 10mX20mX15mX9m" formControlName='perimetreControl'>
                             </mat-form-field>
                         </div>
                 </div>

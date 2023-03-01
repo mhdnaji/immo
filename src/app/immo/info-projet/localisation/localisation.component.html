@@ -6,71 +6,75 @@
       </div>
       <div class="body">
         <div class="container-fluid">
-         
-            <div class="row ">
-              <div class="col-sm-6">
-                <!-- <h6>Ville</h6> -->
-                <mat-form-field class="example-full-width">
-                  <mat-label>ville</mat-label>
-                  <mat-select formControlName="villeControl" required (selectionChange)="onVilleChange ($event)"
-                    #villeSelector [(value)]="selectedVilleValue">
-                    <!-- <mat-option>Select Item</mat-option> -->
-                    <mat-option *ngFor="let ville of villes " [value]="ville.CHEF_LIEU">
-                      {{ville.CHEF_LIEU}}
-                    </mat-option>
-                  </mat-select>
-                  <mat-error *ngIf="localisationGroup.get('villeControl').hasError('required')">Please choose ville
-                  </mat-error>
-                  <mat-hint>{{localisationGroup.get('villeControl').value?.sound}}</mat-hint>
-                </mat-form-field>
-              </div>
-              <div class="col-sm-6">
-                <!-- <h6>Commune</h6> -->
-                <mat-form-field class="example-full-width">
-                  <mat-label>commune</mat-label>
-                  <mat-select formControlName="communeControl" required #communeSelector
-                    [(value)]="selectedCommuneValue">
-                    <!-- <mat-option>Select Item</mat-option> -->
-                    <mat-option *ngFor="let commune of communesOfVille" [value]="commune.COMMUNE">
-                      {{commune.COMMUNE}}
-                    </mat-option>
-                  </mat-select>
-                  <mat-error *ngIf="localisationGroup.get('communeControl').hasError('required')">Please choose commune
-                  </mat-error>
-                  <mat-hint>{{localisationGroup.get('communeControl').value?.sound}}</mat-hint>
-                </mat-form-field>
-              </div>
+
+          <div class="row ">
+            <div class="col-sm-6">
+              <!-- <h6>Ville</h6> -->
+              <mat-form-field class="example-full-width">
+                <mat-label>ville</mat-label>
+                <mat-select formControlName="villeControl" required (selectionChange)="onVilleChange ($event)"
+                  #villeSelector [(value)]="selectedVilleValue">
+                  <!-- <mat-option>Select Item</mat-option> -->
+                  <mat-option *ngFor="let ville of dataService.refs.villes " [value]="ville.id">
+                    {{ville.ville}}
+                  </mat-option>
+                </mat-select>
+                <mat-error *ngIf="localisationGroup.get('villeControl').hasError('required')">Please choose ville
+                </mat-error>
+                <mat-hint>{{localisationGroup.get('villeControl').value?.sound}}</mat-hint>
+              </mat-form-field>
             </div>
-            <div class="row">
-              <div class="col-sm-6">
-                <!-- <h6>Quartier</h6> -->
-                <mat-form-field class="example-full-width">
-                  <mat-label>Quartier</mat-label>
-                  <input type="text" matInput [matAutocomplete]="auto" formControlName="quartierControl">
-                  <mat-autocomplete #auto="matAutocomplete">
-                    <mat-option *ngFor="let quartier of filtredQuartiers | async " [value]="quartier.nom">
-                      {{ quartier.label }}
-                    </mat-option>
-                  </mat-autocomplete>
-                </mat-form-field>
-              </div>
-              <div class="col-sm-6">
-                <!-- <h6>Zone</h6> -->
-                <mat-form-field class="example-full-width">
-                  <mat-label>zone</mat-label>
-                  <mat-select formControlName="zoneControl">
-                    <!-- <mat-option>Select Item</mat-option> -->
-                    <mat-option *ngFor="let zone of zones " [value]="zone.nom">
-                      {{zone.label}}
-                    </mat-option>
-                  </mat-select>
-                </mat-form-field>
-              </div>
+            <div class="col-sm-6">
+              <!-- <h6>Commune</h6> -->
+              <mat-form-field class="example-full-width">
+                <mat-label>commune</mat-label>
+                <mat-select formControlName="communeControl" required #communeSelector [(value)]="selectedCommuneValue"
+                  (selectionChange)="onCommuneChange ($event)">
+                  <!-- <mat-option>Select Item</mat-option> -->
+                  <mat-option *ngFor="let commune of dataService.refs.communes | filterByVille :selectedVilleValue  " [value]="commune.id">
+                    {{commune.commune}}
+                  </mat-option>
+                </mat-select>
+                <mat-error *ngIf="localisationGroup.get('communeControl').hasError('required')">Please choose commune
+                </mat-error>
+                <mat-hint>{{localisationGroup.get('communeControl').value?.sound}}</mat-hint>
+              </mat-form-field>
+            </div>
           </div>
-        </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <!-- <h6>Quartier</h6> -->
+              <mat-form-field class="example-full-width">
+                <mat-label>saisir un quartier</mat-label>
+                <input type="text" matInput [matAutocomplete]="autoQuartier" formControlName="quartierControl"
+                  [(value)]="selectedQuartierValue"
+                  >
+                <mat-autocomplete #autoQuartier="matAutocomplete" (optionSelected)="onQuartierSelected($event)" (focus)="onQuartierFocus()">
+                  <mat-option *ngFor="let quartier of filtredQuartiers | async " [value]="quartier">
+                    {{ quartier.quartier}}
+                  </mat-option>
+                </mat-autocomplete>
+              </mat-form-field>
+            </div>
+            <div class="col-sm-6">
+              <!-- <h6>Quartier</h6> -->
+              <mat-form-field class="example-full-width">
+                <mat-label>Saisir une zone</mat-label>
+                <input type="text" matInput [matAutocomplete]="autoZone" formControlName="zoneControl"
+                  [(value)]="selectedZoneValue">
+                <mat-autocomplete #autoZone="matAutocomplete" (optionSelected)="onZoneSelected($event)">
+                  <mat-option *ngFor="let zone of filtredZones | async " [value]="zone">
+                    {{ zone.zone}}
+                  </mat-option>
+                </mat-autocomplete>
+              </mat-form-field>
+            </div>
+
+          </div>
         </div>
       </div>
     </div>
+  </div>
 
   <div>
     <button mat-raised-button color="primary" [disabled]="!localisationGroup.valid">Suivant</button>

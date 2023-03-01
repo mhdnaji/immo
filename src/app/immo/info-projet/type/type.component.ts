@@ -1,6 +1,6 @@
 import { AppService, DataService } from '../../../app.service';
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { Option } from 'src/app/models';
+import { Option, TypeDeBien } from 'src/app/models';
 import {
   UntypedFormBuilder,
   UntypedFormGroup,
@@ -13,6 +13,12 @@ import { MatDialog } from '@angular/material/dialog';
 import { TypeDetailComponent } from './type-detail/type-detail.component';
 import { ColumnMode } from '@swimlane/ngx-datatable';
 import { Router } from '@angular/router';
+interface Maison  {
+  id: string,
+  name: string,
+  img: string,
+}
+
 interface Image {
   image: string,
   thumbImage: string,
@@ -27,7 +33,8 @@ export class TypeComponent implements OnInit {
   @Output() moveStep = new EventEmitter<number>();
 
   typeGroup: UntypedFormGroup;
-  selectedImage: Image;
+  selectedImage: TypeDeBien;
+  selectedMaison: TypeDeBien;
 
 
   currentIndex: any = -1;
@@ -119,7 +126,7 @@ export class TypeComponent implements OnInit {
     private router: Router,
   ) {
     this.typeGroup = this.fb.group({
-      typeDeBienControl: ['', [Validators.required]],
+      typeDeBien: ['', [Validators.required]],
       nbPiecesControl: ['', [Validators.required]],
       standingControl: ['', [Validators.required]],
       garageControl: ['', [Validators.required]],
@@ -155,16 +162,11 @@ export class TypeComponent implements OnInit {
 
 
   storeInfosUser() {
-
-
-    this.dataService.infosUser.typeDeBien = this.typeGroup.value.typeDeBienControl;
+    this.dataService.infosUser.typeDeBien = this.typeGroup.value.typeDeBien;
     this.dataService.infosUser.nbPieces = this.typeGroup.value.nbPiecesControl;
     this.dataService.infosUser.standing = this.typeGroup.value.standingControl;
     this.dataService.infosUser.garage = this.typeGroup.value.garageControl;
-    this.dataService.infosUser.personalisation = this.rows;
-
     this.dataService.storeInfosUser();
-
     console.log("TypeComponent this.dataService.infosUser:", this.dataService.infosUser)
   }
 
@@ -172,45 +174,23 @@ export class TypeComponent implements OnInit {
 
   initControlValues() {
 
-    this.selectedImage = this.selectedImage = this.typeDeMaisons.find(obj => obj.nom === this.dataService.infosUser.typeDeBien);
+    console.log("initControlValues  this.dataService.refs:",this.dataService.refs)
 
-    this.typeGroup.get('typeDeBienControl').setValue(this.dataService.infosUser.typeDeBien);
+    this.typeGroup.get('typeDeBien').setValue(this.dataService.infosUser.typeDeBien);
     this.typeGroup.get('nbPiecesControl').setValue(this.dataService.infosUser.nbPieces);
     this.typeGroup.get('standingControl').setValue(this.dataService.infosUser.standing);
     this.typeGroup.get('garageControl').setValue(this.dataService.infosUser.garage);
     //this.rows = this.dataService.infosUser.personalisation;
     // console.log("TypeComponent this.typeGroup:", this.typeGroup)
-    this.rows=this.dataService.infosUser.personalisation;
-    console.log("initControlValues TypeComponent this.dataService.infosUser:", this.dataService.infosUser)
+    //this.rows=this.dataService.infosUser.personalisation;
+    console.log("initControlValues this.dataService.infosUser:", this.dataService.infosUser)
 
   }
-  onSelectionChange(event) {
-    console.log("onSelectionChange:", event);
-    this.selectedImage = this.typeDeMaisons.find(obj => obj.nom === event.value);
-  }
-
-
-  personaliser() {
-
-    const dialogRef = this.dialog.open(TypeDetailComponent, {
-
-      data: { title: 'Personalisation', content: 'Dialog Content' }
-    });
-    dialogRef.afterClosed().subscribe(result => {
-      console.log("result:", result);
-      this.rows.push({ id: 10, piece: result.piece, surface: result.surface, nombre: result.nombre });
-      this.rows = [...this.rows]
-    }
-
-    );
-    console.log("rows:", this.rows);
-
-  }
-
-  deleteRow(row) {
-    const index = this.rows.indexOf(row);
-    this.rows.splice(index, 1);
-    this.rows = [...this.rows];
+  onTypeDeBienChange(event) {
+    console.log("onMaisonChange:", event);
+    this.selectedMaison = this.dataService.refs.typeDeBiens.find(obj => obj.type_de_bien === event.value);
+    console.log("this.selectedMaison:",this.selectedMaison)
+    console.log("this.typeGroup",this.typeGroup)
   }
 
   updateSurface(){
@@ -221,4 +201,5 @@ export class TypeComponent implements OnInit {
       this.dataService.infosUser.nbPieces = this.typeGroup.value.nbPiecesControl;
     }
   }
+
 }

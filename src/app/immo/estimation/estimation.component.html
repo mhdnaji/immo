@@ -24,16 +24,24 @@
 
     <div class="row">
 
-      <div class="card col-xs-12 col-sm-12 col-md-12 col-lg-3 ">
+      <div class="card col-xs-12 col-sm-12 col-md-12 col-lg-3  ">
         <h4>Notre proposition:</h4>
-        <mat-label>Duplex 4P Moyen standing avec une surface utile de 100 m2</mat-label>
-        <mat-label>Garage 2 voiture </mat-label>
+  
+          <h5 > <strong class="title-nos-proposition">Ville:</strong> {{dataService.infosUser.ville}}</h5>
+          <h5 > <strong class="title-nos-proposition">Commune:</strong> {{dataService.infosUser.commune}}</h5>
+          <h5 > <strong class="title-nos-proposition">Quartier:</strong> {{dataService.infosUser.quartier}}</h5>
+          <h5 > <strong class="title-nos-proposition">Zone:</strong> {{dataService.infosUser.zone}}</h5>
+          <h5 > <strong class="title-nos-proposition">Surface:</strong> {{dataService.infosUser.surface}}</h5>
+          <h5 > <strong class="title-nos-proposition">Type de bien:</strong> {{dataService.infosUser.typeDeBien}}</h5>
+          <h5 > <strong class="title-nos-proposition">Nombre de pieces:</strong> {{dataService.infosUser.nbPieces}}</h5>
+          <h5 > <strong class="title-nos-proposition">Standing:</strong> {{dataService.infosUser.standing}}</h5>
+          <h5 > <strong class="title-nos-proposition">Garage:</strong> {{dataService.infosUser.garage}}</h5>
       </div>
 
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5">
         <div class="row">
           <div class="card">
-            <h4>Estimation du budget de construction</h4>
+            <h4>Estimation du budget de construction:</h4>
             <table class="custom-table">
               <thead>
                 <tr>
@@ -44,9 +52,9 @@
               </thead>
               <tbody>
                 <tr>
-                  <td>{{estimation_min|thousandSeparator}}</td>
-                  <td>{{estimation|thousandSeparator}}</td>
-                  <td>{{estimation_min|thousandSeparator}}</td>
+                  <td>{{estimation.min|thousandSeparator}}</td>
+                  <td>{{estimation.estimation|thousandSeparator}}</td>
+                  <td>{{estimation.max|thousandSeparator}}</td>
                 </tr>
               </tbody>
             </table>
@@ -54,8 +62,9 @@
         </div>
         <div class="row">
           <div class="card">
-            <ngx-datatable [rows]="rows" [columns]="columns" #mydatatable class="material" [headerHeight]="50"
-              [scrollbarH]="true" [scrollbarV]="true" [rows]="rows" [externalPaging]="false">
+            <h5>Détail par corps d'état:</h5>
+            <ngx-datatable [rows]="rowsEstimation" [columns]="columns" #mydatatable class="material" [headerHeight]="50"
+              [scrollbarH]="true" [scrollbarV]="true" [rows]="rowsEstimation" [externalPaging]="false">
               <ngx-datatable-column name="designation" prop="designation" [frozenLeft]="true" [width]="250">
                 <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex" let-value="value" let-row="row">
                   <div style="text-align: left ; "> {{ value }}</div>
@@ -105,12 +114,14 @@
               </ngx-datatable-column>
               <ngx-datatable-column name="Surface">
                 <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex" let-value="value" let-row="row">
-                  <span title="Clicker pour modifier"  (click)="editing[rowIndex + '-surface'] = true;onClickSurface($Event)"
+                  <span title="Clicker pour modifier"
+                    (click)="editing[rowIndex + '-surface'] = true;onClickSurface($Event)"
                     *ngIf="!editing[rowIndex + '-surface']">
                     {{ value }}
                   </span>
-                  <input #surfaceInput type="number" min="0" autofocus (click)="onClickSurface($Event)" (blur)="updateValue($event, 'surface', rowIndex)"
-                    *ngIf="editing[rowIndex + '-surface']" [value]="value"  />
+                  <input #surfaceInput type="number" min="0" autofocus (click)="onClickSurface($Event)"
+                    (blur)="updateValue($event, 'surface', rowIndex)" *ngIf="editing[rowIndex + '-surface']"
+                    [value]="value" />
                 </ng-template>
               </ngx-datatable-column>
               <ngx-datatable-column name="Nombre">
@@ -144,7 +155,7 @@
           </button>
         </div> -->
         <div class="row">
-          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 ">
             <h5>Ajouter une pièce:</h5>
           </div>
           <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">

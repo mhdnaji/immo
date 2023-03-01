@@ -13,7 +13,7 @@ td {
 
 thead,
 tfoot {
-  background-color: #15658d;
+  background-color: #2817c2;
   color: #020506;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.12);
@@ -229,6 +229,16 @@ tfoot {
 .title-and-button button {
   margin-left: 10px;
 }
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
 
-
+.title-nos-proposition
+{
+  line-height: 1.5;
+  color: blue;
+}
 

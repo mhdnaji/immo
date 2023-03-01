@@ -10,8 +10,8 @@
                         <mat-form-field class="titre-width">
                             <mat-label>Titre propriété</mat-label>
                             <mat-select formControlName="titreControl" required>
-                                <mat-option *ngFor="let titre of titresProp  " [value]="titre.nom">
-                                    {{ titre.label }}
+                                <mat-option *ngFor="let titre of dataService.refs.titreFonciers  " [value]="titre.id">
+                                    {{ titre.titre }}
                                   </mat-option>
                             </mat-select>
                             <mat-error *ngIf="titreGroup.get('titreControl').hasError('required')">choisir le titre de propriété </mat-error>
@@ -21,7 +21,7 @@
                     <div class="row mt-5">
                         <mat-form-field class="titre-width">
                             <mat-label>Date d'obtention</mat-label>
-                            <input matInput [matDatepicker]="picker" [value]="dateObtention" formControlName="dateControl">
+                            <input matInput [matDatepicker]="picker" [value]="dateObtention" formControlName="dateObtentionControl">
                             <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
                             <mat-datepicker #picker ></mat-datepicker>
                           </mat-form-field>
