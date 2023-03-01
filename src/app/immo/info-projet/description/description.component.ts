@@ -48,16 +48,16 @@ export class DescriptionComponent implements OnInit {
 
   onRetour(){
     this.moveStep.emit(-20);
-    this.storeInfosUser();
+    this.storeinfosProjet();
   }
 
   onNext(){
     this.moveStep.emit(20);
-    this.storeInfosUser();
+    this.storeinfosProjet();
   }
 
   onSubmit(){
-    this.storeInfosUser();
+    this.storeinfosProjet();
   }
 
 
@@ -65,16 +65,18 @@ export class DescriptionComponent implements OnInit {
 
 
   
-  storeInfosUser(){
+  storeinfosProjet(){
 
 
-    this.dataService.infosUser.topologie = this.descriptionGroup.value.topoPropControl ;
-    this.dataService.infosUser.surface = this.descriptionGroup.value.surfaceControl ;
-    this.dataService.infosUser.perimetre = this.descriptionGroup.value.perimetreControl ;
+    this.dataService.infosProjet.topologieId = this.descriptionGroup.value.topoPropControl ;
+    this.dataService.infosProjet.topologie = this.dataService.refs.topologies.find((element) => element.id === this.dataService.infosProjet.topologieId);
+   
+    this.dataService.infosProjet.surface = this.descriptionGroup.value.surfaceControl ;
+    this.dataService.infosProjet.perimetre = this.descriptionGroup.value.perimetreControl ;
     
 
 
-    this.dataService.storeInfosUser();
+    this.dataService.storeInfosProjet();
 
   }
 
@@ -83,9 +85,9 @@ export class DescriptionComponent implements OnInit {
   initControlValues(){
 
     
-    this.descriptionGroup.get('topoPropControl').setValue(this.dataService.infosUser.topologie);
-    this.descriptionGroup.get('surfaceControl').setValue(this.dataService.infosUser.surface);
-    this.descriptionGroup.get('perimetreControl').setValue(this.dataService.infosUser.perimetre);
+    this.descriptionGroup.get('topoPropControl').setValue(this.dataService.infosProjet.topologieId);
+    this.descriptionGroup.get('surfaceControl').setValue(this.dataService.infosProjet.surface);
+    this.descriptionGroup.get('perimetreControl').setValue(this.dataService.infosProjet.perimetre);
 
   
   }

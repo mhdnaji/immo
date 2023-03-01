@@ -79,23 +79,7 @@ export class InfoProjetComponent implements OnInit {
     // private fb: UntypedFormBuilder,
   ) {
 
-    // this.localisationGroup = this.fb.group({
-    //   villeControl: ['', [Validators.required]],
-    //   communeControl: ['', [Validators.required]],
-
-    // });
-
-
-
-
-    // this.descriptionGroup = this.fb.group({
-
-    // });
-
-
-    // this.typeGroup = this.fb.group({
-
-    // });
+   
 
   }
   ngOnInit(): void {
@@ -114,25 +98,6 @@ export class InfoProjetComponent implements OnInit {
 
 
 
-
-  // storeInfosUser() {
-
-  //   this.dataService.infosUser.ville = this.localisationGroup.controls['ville'].value;
-  //   this.dataService.infosUser.commune = this.localisationGroup.controls['commune'].value;
-
-  // }
-
-
-
-
-  // initControlValues() {
-
-
-  //   this.adresseGroup.get('commune').setValue(this.dataService.infosUser.commune);
-  //   this.adresseGroup.get('ville').setValue(this.dataService.infosUser.ville);
-
-
-  // }
 
 }
 

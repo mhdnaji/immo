@@ -8,7 +8,7 @@
                 <div class="body">
                     <div class="row mt-5">
                         <mat-form-field class="titre-width">
-                            <mat-label>Titre propriété</mat-label>
+                            <mat-label>Titre foncier</mat-label>
                             <mat-select formControlName="titreControl" required>
                                 <mat-option *ngFor="let titre of dataService.refs.titreFonciers  " [value]="titre.id">
                                     {{ titre.titre }}

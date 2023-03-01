@@ -145,29 +145,36 @@ export class TypeComponent implements OnInit {
 
   onRetour() {
     this.moveStep.emit(-30);
-    this.storeInfosUser();
+    this.storeinfosProjet();
   }
 
   // onNext() {
   //   this.moveStep.emit(30);
-  //   this.storeInfosUser();
+  //   this.storeinfosProjet();
   // }
 
   onSubmit() {
-    this.storeInfosUser();
+    this.storeinfosProjet();
     console.log("TypeComponent this.typeGroup:", this.typeGroup)
     this.router.navigate(['/estimation']);
   }
 
 
 
-  storeInfosUser() {
-    this.dataService.infosUser.typeDeBien = this.typeGroup.value.typeDeBien;
-    this.dataService.infosUser.nbPieces = this.typeGroup.value.nbPiecesControl;
-    this.dataService.infosUser.standing = this.typeGroup.value.standingControl;
-    this.dataService.infosUser.garage = this.typeGroup.value.garageControl;
-    this.dataService.storeInfosUser();
-    console.log("TypeComponent this.dataService.infosUser:", this.dataService.infosUser)
+  storeinfosProjet() {
+    this.dataService.infosProjet.typeDeBienId = this.typeGroup.value.typeDeBien;
+    this.dataService.infosProjet.typeDeBien = this.dataService.refs.typeDeBiens.find((element) => element.id === this.dataService.infosProjet.typeDeBienId);
+   
+    this.dataService.infosProjet.nbPieces = this.typeGroup.value.nbPiecesControl;
+   
+    this.dataService.infosProjet.standingId = this.typeGroup.value.standingControl;
+    this.dataService.infosProjet.standing = this.dataService.refs.standings.find((element) => element.id === this.dataService.infosProjet.standingId);
+   
+    this.dataService.infosProjet.garageId = this.typeGroup.value.garageControl;
+    this.dataService.infosProjet.garage = this.dataService.refs.garages.find((element) => element.nb_voitures === this.dataService.infosProjet.garageId);
+   
+    this.dataService.storeInfosProjet();
+    console.log("TypeComponent this.dataService.infosProjet:", this.dataService.infosProjet)
   }
 
 
@@ -176,14 +183,14 @@ export class TypeComponent implements OnInit {
 
     console.log("initControlValues  this.dataService.refs:",this.dataService.refs)
 
-    this.typeGroup.get('typeDeBien').setValue(this.dataService.infosUser.typeDeBien);
-    this.typeGroup.get('nbPiecesControl').setValue(this.dataService.infosUser.nbPieces);
-    this.typeGroup.get('standingControl').setValue(this.dataService.infosUser.standing);
-    this.typeGroup.get('garageControl').setValue(this.dataService.infosUser.garage);
-    //this.rows = this.dataService.infosUser.personalisation;
+    this.typeGroup.get('typeDeBien').setValue(this.dataService.infosProjet.typeDeBienId);
+    this.typeGroup.get('nbPiecesControl').setValue(this.dataService.infosProjet.nbPieces);
+    this.typeGroup.get('standingControl').setValue(this.dataService.infosProjet.standingId);
+    this.typeGroup.get('garageControl').setValue(this.dataService.infosProjet.garageId);
+    //this.rows = this.dataService.infosProjet.personalisation;
     // console.log("TypeComponent this.typeGroup:", this.typeGroup)
-    //this.rows=this.dataService.infosUser.personalisation;
-    console.log("initControlValues this.dataService.infosUser:", this.dataService.infosUser)
+    //this.rows=this.dataService.infosProjet.personalisation;
+    console.log("initControlValues this.dataService.infosProjet:", this.dataService.infosProjet)
 
   }
   onTypeDeBienChange(event) {
@@ -194,11 +201,11 @@ export class TypeComponent implements OnInit {
   }
 
   updateSurface(){
-    if ( this.dataService.infosUser.nbPieces != this.typeGroup.value.nbPiecesControl )
+    if ( this.dataService.infosProjet.nbPieces != this.typeGroup.value.nbPiecesControl )
     {
       this.rows = this.newRows ;
       this.rows = [...this.rows];
-      this.dataService.infosUser.nbPieces = this.typeGroup.value.nbPiecesControl;
+      this.dataService.infosProjet.nbPieces = this.typeGroup.value.nbPiecesControl;
     }
   }
 

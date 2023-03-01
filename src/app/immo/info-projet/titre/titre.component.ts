@@ -75,21 +75,21 @@ export class TitreComponent implements OnInit {
  
   onNext(){
     this.moveStep.emit(1);
-    this.storeInfosUser();
+    this.storeinfosProjet();
   }
 
   onSubmit(){
-    this.storeInfosUser()
+    this.storeinfosProjet()
     
   }
 
-  storeInfosUser(){
-
-
-    this.dataService.infosUser.titreDeProp = this.titreGroup.value.titreControl ;
-    this.dataService.infosUser.dateObtention =  this.titreGroup.value.dateObtentionControl ;
+  storeinfosProjet(){
+ 
+    this.dataService.infosProjet.titreFoncierId = this.titreGroup.value.titreControl ;
+    this.dataService.infosProjet.titreFoncier = this.dataService.refs.titreFonciers.find((element) => element.id === this.dataService.infosProjet.titreFoncierId);
+    this.dataService.infosProjet.dateObtention =  this.titreGroup.value.dateObtentionControl ;
     
-    this.dataService.storeInfosUser();
+    this.dataService.storeInfosProjet();
 
     console.log("this.titreGroup:",this.titreGroup)
   }
@@ -98,8 +98,8 @@ export class TitreComponent implements OnInit {
   
   initControlValues(){
 
-    this.titreGroup.get('titreControl').setValue(this.dataService.infosUser.titreDeProp);
-    this.titreGroup.get('dateObtentionControl').setValue(this.dataService.infosUser.dateObtention);
+    this.titreGroup.get('titreControl').setValue(this.dataService.infosProjet.titreFoncierId);
+    this.titreGroup.get('dateObtentionControl').setValue(this.dataService.infosProjet.dateObtention);
   }
 
 

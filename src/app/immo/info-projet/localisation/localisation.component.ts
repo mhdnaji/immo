@@ -119,7 +119,7 @@ export class LocalisationComponent implements OnInit {
   @Output() moveStep = new EventEmitter<number>();
   onSubmit() {
     this.moveStep.emit(10);
-    this.storeInfosUser()
+    this.storeinfosProjet()
     console.log(" this.localisationGroup:",  this.localisationGroup)
   }
 
@@ -184,17 +184,17 @@ export class LocalisationComponent implements OnInit {
     
   }
 
-  storeInfosUser(){
+  storeinfosProjet(){
 
 
-    this.dataService.infosUser.villeId = this.localisationGroup.value.villeControl ;
-    this.dataService.infosUser.ville = this.dataService.refs.villes.find((element) => element.id === this.dataService.infosUser.villeId);
-    this.dataService.infosUser.communeId = this.localisationGroup.value.communeControl ;
-    this.dataService.infosUser.commune = this.dataService.refs.communes.find((element) => element.id === this.dataService.infosUser.communeId);
-    this.dataService.infosUser.quartier = this.localisationGroup.value.quartierControl ;
-    this.dataService.infosUser.zone = this.localisationGroup.value.zoneControl ;
+    this.dataService.infosProjet.villeId = this.localisationGroup.value.villeControl ;
+    this.dataService.infosProjet.ville = this.dataService.refs.villes.find((element) => element.id === this.dataService.infosProjet.villeId);
+    this.dataService.infosProjet.communeId = this.localisationGroup.value.communeControl ;
+    this.dataService.infosProjet.commune = this.dataService.refs.communes.find((element) => element.id === this.dataService.infosProjet.communeId);
+    this.dataService.infosProjet.quartier = this.localisationGroup.value.quartierControl ;
+    this.dataService.infosProjet.zone = this.localisationGroup.value.zoneControl ;
     
-    this.dataService.storeInfosUser();
+    this.dataService.storeInfosProjet();
 
   }
 
@@ -219,20 +219,20 @@ export class LocalisationComponent implements OnInit {
     );
 
     console.log('initControlValues communes:', this.dataService.refs.communes);
-    this.selectedVilleValue=this.dataService.infosUser.villeId ;
+    this.selectedVilleValue=this.dataService.infosProjet.villeId ;
     console.log('initControlValues selectedVilleValue:', this.selectedVilleValue);
     this.localisationGroup.get('villeControl').setValue(this.selectedVilleValue);
     //this.communesOfVille=this.dataService.refs.communes.filter(obj => obj.id_ville ===this.selectedVilleValue) ;
     //console.log('initControlValues communesOfVille:', this.communesOfVille);
 
-    this.selectedCommuneValue = this.dataService.infosUser.communeId
+    this.selectedCommuneValue = this.dataService.infosProjet.communeId
     this.localisationGroup.get('communeControl').setValue(this.selectedCommuneValue);
  
-    let quartier = typeof this.dataService.infosUser.quartier === "object" ?  this.dataService.infosUser.quartier["quartier"]:this.dataService.infosUser.quartier ; 
+    let quartier = typeof this.dataService.infosProjet.quartier === "object" ?  this.dataService.infosProjet.quartier["quartier"]:this.dataService.infosProjet.quartier ; 
     this.localisationGroup.get('quartierControl').setValue(quartier);
     //this.quartiersOfCommune=this.dataService.refs.quartiers ? this.dataService.refs.quartiers.filter(obj => obj.id_commune === this.selectedCommuneValue) : null
 
-    let zone = typeof this.dataService.infosUser.zone === "object" ?  this.dataService.infosUser.zone["zone"]:this.dataService.infosUser.zone ; 
+    let zone = typeof this.dataService.infosProjet.zone === "object" ?  this.dataService.infosProjet.zone["zone"]:this.dataService.infosProjet.zone ; 
     this.localisationGroup.get('zoneControl').setValue(zone);
     //this.zonesOfCommune=this.dataService.refs.zones.filter(obj => obj.id_commune === this.selectedCommuneValue)
 

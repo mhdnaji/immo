@@ -166,26 +166,26 @@ export class EstimationComponent implements OnInit {
 
   }
 
-  storeInfosUser() {
+  storeinfosProjet() {
 
 
-    this.dataService.infosUser.estimation = this.estimation;
-    this.dataService.infosUser.detailEstimation = this.rowsEstimation;
-    this.dataService.infosUser.personalisation = this.rowsPieces;
+    this.dataService.infosProjet.estimation = this.estimation;
+    this.dataService.infosProjet.detailEstimation = this.rowsEstimation;
+    this.dataService.infosProjet.personalisation = this.rowsPieces;
 
-    this.dataService.storeInfosUser();
+    this.dataService.storeInfosProjet();
 
-    console.log("TypeComponent this.dataService.infosUser:", this.dataService.infosUser)
+    console.log("TypeComponent this.dataService.infosProjet:", this.dataService.infosProjet)
   }
 
 
 
   initControlValues() {
 
-    //this.rows = this.dataService.infosUser.personalisation;
+    //this.rows = this.dataService.infosProjet.personalisation;
     // console.log("TypeComponent this.typeGroup:", this.typeGroup)
-    this.rowsPieces=this.dataService.infosUser.personalisation;
-    console.log("initControlValues TypeComponent this.dataService.infosUser:", this.dataService.infosUser)
+    this.rowsPieces=this.dataService.infosProjet.personalisation;
+    console.log("initControlValues TypeComponent this.dataService.infosProjet:", this.dataService.infosProjet)
 
   }
 
